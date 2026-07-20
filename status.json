@@ -1,21 +1,21 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-07-20",
-  "publishedAt": "2026-07-20T05:21:09.693Z",
+  "publishedAt": "2026-07-20T05:52:20.796Z",
   "kpis": {
     "overallPercent": 17,
     "epicsDone": 1,
     "epicTotal": 12,
-    "storiesInReview": 1,
-    "openActionItems": 0,
+    "storiesInReview": 0,
+    "openActionItems": 1,
     "currentEpic": 2
   },
   "currentFocus": {
     "epic": 2,
     "storyKey": "2-2-products-units",
     "storyTitle": "Products & Units",
-    "status": "review",
-    "summary": "2026-07-20 (latest): Story 2.2 (Products & Units) = REVIEW COMPLETE + MANUAL QA PASSED 7/7 (commit/PR pending div)."
+    "status": "backlog",
+    "summary": "2026-07-20 (latest): Story 2.1 (W9 EntityManager & Clients) = DONE + MERGED (PR #17 → main 8612eae; branch deleted; CI green incl. the new Playwright stage)."
   },
   "epics": [
     {
@@ -88,7 +88,7 @@
         {
           "key": "2-2-products-units",
           "title": "Products & Units",
-          "status": "review"
+          "status": "backlog"
         },
         {
           "key": "2-3-vehicles-with-ownership",
@@ -439,5 +439,12 @@
       "retrospective": "optional"
     }
   ],
-  "openActionItems": []
+  "openActionItems": [
+    {
+      "epic": 1,
+      "action": "Mechanism over memory: script wrapping eval \"$(supabase status -o env)\" + the two-stage suite so the 1.8/1.9 env recurrence cannot repeat",
+      "owner": "Amelia (next integration-suite touch)",
+      "status": "open"
+    }
+  ]
 }
