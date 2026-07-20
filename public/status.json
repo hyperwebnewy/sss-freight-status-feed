@@ -1,0 +1,443 @@
+{
+  "generated": "2026-07-15",
+  "lastUpdated": "2026-07-20",
+  "publishedAt": "2026-07-20T05:21:09.693Z",
+  "kpis": {
+    "overallPercent": 17,
+    "epicsDone": 1,
+    "epicTotal": 12,
+    "storiesInReview": 1,
+    "openActionItems": 0,
+    "currentEpic": 2
+  },
+  "currentFocus": {
+    "epic": 2,
+    "storyKey": "2-2-products-units",
+    "storyTitle": "Products & Units",
+    "status": "review",
+    "summary": "2026-07-20 (latest): Story 2.2 (Products & Units) = REVIEW COMPLETE + MANUAL QA PASSED 7/7 (commit/PR pending div)."
+  },
+  "epics": [
+    {
+      "number": 1,
+      "title": "Foundation, Sign-In & User Management",
+      "status": "done",
+      "done": 9,
+      "total": 9,
+      "stories": [
+        {
+          "key": "1-1-monorepo-foundation-green-ci",
+          "title": "Monorepo Foundation & Green CI",
+          "status": "done"
+        },
+        {
+          "key": "1-2-design-tokens-package",
+          "title": "Design Tokens Package",
+          "status": "done"
+        },
+        {
+          "key": "1-3-supabase-auth-with-phone-identity",
+          "title": "Supabase Auth with Phone Identity",
+          "status": "done"
+        },
+        {
+          "key": "1-4-append-only-audit-substrate",
+          "title": "Append-Only Audit Substrate",
+          "status": "done"
+        },
+        {
+          "key": "1-5-web-sign-in-app-shell",
+          "title": "Web Sign-In & App Shell",
+          "status": "done"
+        },
+        {
+          "key": "1-6-user-management-w12",
+          "title": "User Management (W12)",
+          "status": "done"
+        },
+        {
+          "key": "1-7-system-constants-company-info-w11",
+          "title": "System Constants & Company Info (W11)",
+          "status": "done"
+        },
+        {
+          "key": "1-8-driver-sign-in-m1",
+          "title": "Driver Sign-In (M1)",
+          "status": "done"
+        },
+        {
+          "key": "1-9-driver-pin-unlock-offline",
+          "title": "Driver PIN Unlock (offline-capable)",
+          "status": "done"
+        }
+      ],
+      "retrospective": "done"
+    },
+    {
+      "number": 2,
+      "title": "Master Data",
+      "status": "in-progress",
+      "done": 1,
+      "total": 5,
+      "stories": [
+        {
+          "key": "2-1-w9-entitymanager-clients-with-four-roles",
+          "title": "W9 EntityManager & Clients with Four Roles",
+          "status": "done"
+        },
+        {
+          "key": "2-2-products-units",
+          "title": "Products & Units",
+          "status": "review"
+        },
+        {
+          "key": "2-3-vehicles-with-ownership",
+          "title": "Vehicles with Ownership",
+          "status": "backlog"
+        },
+        {
+          "key": "2-4-driver-records",
+          "title": "Driver Records",
+          "status": "backlog"
+        },
+        {
+          "key": "2-5-archive-hygiene-duplicate-handling",
+          "title": "Archive Hygiene & Duplicate Handling",
+          "status": "backlog"
+        }
+      ],
+      "retrospective": "optional"
+    },
+    {
+      "number": 3,
+      "title": "Rate Cards & Pricing Engine",
+      "status": "backlog",
+      "done": 0,
+      "total": 6,
+      "stories": [
+        {
+          "key": "3-1-rate-card-model-w9-editor",
+          "title": "Rate Card Model & W9 Editor",
+          "status": "backlog"
+        },
+        {
+          "key": "3-2-effective-dating-fy-rollover",
+          "title": "Effective Dating & FY Rollover",
+          "status": "backlog"
+        },
+        {
+          "key": "3-3-three-tier-rate-resolver",
+          "title": "Three-Tier Rate Resolver",
+          "status": "backlog"
+        },
+        {
+          "key": "3-4-snapshot-off-card-domain-contract",
+          "title": "Snapshot & Off-card Domain Contract",
+          "status": "backlog"
+        },
+        {
+          "key": "3-5-subbie-rate-cards",
+          "title": "Subbie Rate Cards",
+          "status": "backlog"
+        },
+        {
+          "key": "3-6-rate-card-csv-export-seed-import-path",
+          "title": "Rate Card CSV Export & Seed Import Path",
+          "status": "backlog"
+        }
+      ],
+      "retrospective": "optional"
+    },
+    {
+      "number": 4,
+      "title": "Jobs, Legs & the Daysheet",
+      "status": "backlog",
+      "done": 0,
+      "total": 7,
+      "stories": [
+        {
+          "key": "4-1-job-leg-model-with-version-tokens-and-snapshot-enforcement",
+          "title": "Job & Leg Model with Version Tokens and Snapshot Enforcement",
+          "status": "backlog"
+        },
+        {
+          "key": "4-2-status-machine",
+          "title": "Status Machine",
+          "status": "backlog"
+        },
+        {
+          "key": "4-3-job-authoring-w4",
+          "title": "Job Authoring (W4)",
+          "status": "backlog"
+        },
+        {
+          "key": "4-4-daysheet-grid-w2",
+          "title": "Daysheet Grid (W2)",
+          "status": "backlog"
+        },
+        {
+          "key": "4-5-live-ingest-kpi-strip",
+          "title": "Live Ingest & KPI Strip",
+          "status": "backlog"
+        },
+        {
+          "key": "4-6-job-detail-w3",
+          "title": "Job Detail (W3)",
+          "status": "backlog"
+        },
+        {
+          "key": "4-7-find-jobs-archive-w5",
+          "title": "Find Jobs & Archive (W5)",
+          "status": "backlog"
+        }
+      ],
+      "retrospective": "optional"
+    },
+    {
+      "number": 5,
+      "title": "Recurring Templates",
+      "status": "backlog",
+      "done": 0,
+      "total": 2,
+      "stories": [
+        {
+          "key": "5-1-save-as-template-one-tap-copy",
+          "title": "Save-as-Template & One-Tap Copy",
+          "status": "backlog"
+        },
+        {
+          "key": "5-2-scheduled-morning-generation",
+          "title": "Scheduled Morning Generation",
+          "status": "backlog"
+        }
+      ],
+      "retrospective": "optional"
+    },
+    {
+      "number": 6,
+      "title": "Driver App & Offline Sync",
+      "status": "backlog",
+      "done": 0,
+      "total": 7,
+      "stories": [
+        {
+          "key": "6-1-powersync-chaos-spike-epic-entry-gate",
+          "title": "PowerSync Chaos Spike (Epic Entry Gate)",
+          "status": "backlog"
+        },
+        {
+          "key": "6-2-driver-sync-streams-offline-legs-m2-m3",
+          "title": "Driver Sync Streams & Offline Legs (M2/M3)",
+          "status": "backlog"
+        },
+        {
+          "key": "6-3-atomic-ingest-rpc",
+          "title": "Atomic Ingest RPC",
+          "status": "backlog"
+        },
+        {
+          "key": "6-4-delivery-confirmation-manual-path-m5-m7",
+          "title": "Delivery Confirmation — Manual Path (M5/M7)",
+          "status": "backlog"
+        },
+        {
+          "key": "6-5-sync-queue-honest-states-m6",
+          "title": "Sync Queue & Honest States (M6)",
+          "status": "backlog"
+        },
+        {
+          "key": "6-6-exactly-once-flush-proof-chaos-hardening",
+          "title": "Exactly-Once Flush Proof (Chaos Hardening)",
+          "status": "backlog"
+        },
+        {
+          "key": "6-7-driver-conflict-state-deactivation-grace-m9",
+          "title": "Driver Conflict State & Deactivation Grace (M9)",
+          "status": "backlog"
+        }
+      ],
+      "retrospective": "optional"
+    },
+    {
+      "number": 7,
+      "title": "Docket Capture & OCR",
+      "status": "backlog",
+      "done": 0,
+      "total": 6,
+      "stories": [
+        {
+          "key": "7-1-storage-port-7-year-retention",
+          "title": "Storage Port & 7-Year Retention",
+          "status": "backlog"
+        },
+        {
+          "key": "7-2-camera-capture-photo-gallery-m4",
+          "title": "Camera Capture & Photo Gallery (M4)",
+          "status": "backlog"
+        },
+        {
+          "key": "7-3-photo-attachment-sync",
+          "title": "Photo Attachment Sync",
+          "status": "backlog"
+        },
+        {
+          "key": "7-4-ocr-pipeline-provider-port",
+          "title": "OCR Pipeline & Provider Port",
+          "status": "backlog"
+        },
+        {
+          "key": "7-5-ocr-prefill-confirm-integrity-m5",
+          "title": "OCR Prefill & Confirm Integrity (M5)",
+          "status": "backlog"
+        },
+        {
+          "key": "7-6-ocr-golden-set-regression-guard-ci",
+          "title": "OCR Golden-Set Regression Guard (CI)",
+          "status": "backlog"
+        }
+      ],
+      "retrospective": "optional"
+    },
+    {
+      "number": 8,
+      "title": "Flags & Conflict Resolution",
+      "status": "backlog",
+      "done": 0,
+      "total": 3,
+      "stories": [
+        {
+          "key": "8-1-flag-raising-completion-re-evaluation",
+          "title": "Flag Raising Completion & Re-evaluation",
+          "status": "backlog"
+        },
+        {
+          "key": "8-2-flag-review-clearing",
+          "title": "Flag Review & Clearing",
+          "status": "backlog"
+        },
+        {
+          "key": "8-3-conflict-resolution-w10",
+          "title": "Conflict Resolution (W10)",
+          "status": "backlog"
+        }
+      ],
+      "retrospective": "optional"
+    },
+    {
+      "number": 9,
+      "title": "Invoicing, Xero & Load Report",
+      "status": "backlog",
+      "done": 0,
+      "total": 6,
+      "stories": [
+        {
+          "key": "9-1-xero-connection-token-custody",
+          "title": "Xero Connection & Token Custody",
+          "status": "backlog"
+        },
+        {
+          "key": "9-2-invoice-run-selection-w6-w7",
+          "title": "Invoice Run Selection (W6/W7)",
+          "status": "backlog"
+        },
+        {
+          "key": "9-3-deterministic-invoice-construction",
+          "title": "Deterministic Invoice Construction",
+          "status": "backlog"
+        },
+        {
+          "key": "9-4-posting-pipeline-four-layer-duplicate-defence",
+          "title": "Posting Pipeline & Four-Layer Duplicate Defence",
+          "status": "backlog"
+        },
+        {
+          "key": "9-5-invoiced-locking-uninvoice",
+          "title": "Invoiced Locking & Uninvoice",
+          "status": "backlog"
+        },
+        {
+          "key": "9-6-load-report-pdf",
+          "title": "Load Report PDF",
+          "status": "backlog"
+        }
+      ],
+      "retrospective": "optional"
+    },
+    {
+      "number": 10,
+      "title": "Reports",
+      "status": "backlog",
+      "done": 0,
+      "total": 2,
+      "stories": [
+        {
+          "key": "10-1-six-standing-favourites-w8",
+          "title": "Six Standing Favourites (W8)",
+          "status": "backlog"
+        },
+        {
+          "key": "10-2-custom-filter-report-favourites-csv",
+          "title": "Custom Filter Report, Favourites & CSV",
+          "status": "backlog"
+        }
+      ],
+      "retrospective": "optional"
+    },
+    {
+      "number": 11,
+      "title": "Fuel Surcharge Calculator",
+      "status": "backlog",
+      "done": 0,
+      "total": 4,
+      "stories": [
+        {
+          "key": "11-1-surcharge-scheme-model-w9-editor",
+          "title": "Surcharge Scheme Model & W9 Editor",
+          "status": "backlog"
+        },
+        {
+          "key": "11-2-domain-calculator-golden-set",
+          "title": "Domain Calculator & Golden Set",
+          "status": "backlog"
+        },
+        {
+          "key": "11-3-monthly-tpg-entry-historical-record",
+          "title": "Monthly TPG Entry & Historical Record",
+          "status": "backlog"
+        },
+        {
+          "key": "11-4-surcharge-invoice-line-applicability-flag-tpg-gate",
+          "title": "Surcharge Invoice Line, Applicability Flag & TPG Gate",
+          "status": "backlog"
+        }
+      ],
+      "retrospective": "optional"
+    },
+    {
+      "number": 12,
+      "title": "Go-Live Readiness",
+      "status": "backlog",
+      "done": 0,
+      "total": 3,
+      "stories": [
+        {
+          "key": "12-1-go-live-data-seeding",
+          "title": "Go-Live Data Seeding",
+          "status": "backlog"
+        },
+        {
+          "key": "12-2-backup-restore-reconciliation-drill",
+          "title": "Backup/Restore & Reconciliation Drill",
+          "status": "backlog"
+        },
+        {
+          "key": "12-3-gates-verification-parallel-run-uat",
+          "title": "Gates Verification & Parallel-Run UAT",
+          "status": "backlog"
+        }
+      ],
+      "retrospective": "optional"
+    }
+  ],
+  "openActionItems": []
+}
