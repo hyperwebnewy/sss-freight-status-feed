@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-07-21",
-  "publishedAt": "2026-07-21T01:36:10.481Z",
+  "publishedAt": "2026-07-21T04:23:45.156Z",
   "kpis": {
-    "overallPercent": 20,
+    "overallPercent": 22,
     "epicsDone": 1,
     "epicTotal": 12,
     "storiesInReview": 0,
@@ -12,8 +12,8 @@
   },
   "currentFocus": {
     "epic": 2,
-    "storyKey": "2-4-driver-records",
-    "storyTitle": "Driver Records",
+    "storyKey": "2-5-archive-hygiene-duplicate-handling",
+    "storyTitle": "Archive Hygiene & Duplicate Handling",
     "status": "backlog",
     "summary": "2026-07-21 (later): TWO NEW STANDING CONVENTIONS (div)."
   },
@@ -77,7 +77,7 @@
       "number": 2,
       "title": "Master Data",
       "status": "in-progress",
-      "done": 3,
+      "done": 4,
       "total": 5,
       "stories": [
         {
@@ -98,7 +98,7 @@
         {
           "key": "2-4-driver-records",
           "title": "Driver Records",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "2-5-archive-hygiene-duplicate-handling",
