@@ -1,7 +1,7 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-07-21",
-  "publishedAt": "2026-07-21T00:37:22.129Z",
+  "publishedAt": "2026-07-21T01:36:10.481Z",
   "kpis": {
     "overallPercent": 20,
     "epicsDone": 1,
@@ -15,7 +15,7 @@
     "storyKey": "2-4-driver-records",
     "storyTitle": "Driver Records",
     "status": "backlog",
-    "summary": "2026-07-21 (latest): Story 2.3 (Vehicles with Ownership) = DONE (manual QA passed 8/8; checkpoint 2 agreed), TREE UNCOMMITTED."
+    "summary": "2026-07-21 (later): TWO NEW STANDING CONVENTIONS (div)."
   },
   "epics": [
     {
