@@ -1,12 +1,12 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-07-21",
-  "publishedAt": "2026-07-21T04:23:45.156Z",
+  "publishedAt": "2026-07-21T06:58:12.316Z",
   "kpis": {
     "overallPercent": 22,
     "epicsDone": 1,
     "epicTotal": 12,
-    "storiesInReview": 0,
+    "storiesInReview": 1,
     "openActionItems": 0,
     "currentEpic": 2
   },
@@ -14,8 +14,8 @@
     "epic": 2,
     "storyKey": "2-5-archive-hygiene-duplicate-handling",
     "storyTitle": "Archive Hygiene & Duplicate Handling",
-    "status": "backlog",
-    "summary": "2026-07-21 (later): TWO NEW STANDING CONVENTIONS (div)."
+    "status": "review",
+    "summary": "2026-07-21 (newest): Story 2.5 review patches are GREEN; READY FOR MANUAL QA."
   },
   "epics": [
     {
@@ -103,7 +103,7 @@
         {
           "key": "2-5-archive-hygiene-duplicate-handling",
           "title": "Archive Hygiene & Duplicate Handling",
-          "status": "backlog"
+          "status": "review"
         }
       ],
       "retrospective": "optional"
