@@ -1,7 +1,7 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-07-21",
-  "publishedAt": "2026-07-22T00:44:02.141Z",
+  "publishedAt": "2026-07-22T01:26:01.701Z",
   "kpis": {
     "overallPercent": 25,
     "epicsDone": 2,
@@ -14,8 +14,7 @@
     "epic": 3,
     "storyKey": "3-2-effective-dating-fy-rollover",
     "storyTitle": "Effective Dating & FY Rollover",
-    "status": "backlog",
-    "summary": "2026-07-22 (newest): PR #26 MERGED; review-lens tuning + two driver-side hang fixes."
+    "status": "backlog"
   },
   "epics": [
     {
@@ -437,26 +436,6 @@
         }
       ],
       "retrospective": "optional"
-    }
-  ],
-  "openActionItems": [
-    {
-      "epic": 1,
-      "action": "Real-seam test rule: navigation/network/reload seams owe renderRouter or real-Supabase coverage; every driver-side network call gets a timebox + hang-regression test",
-      "owner": "Amelia (wired into _bmad/custom/bmad-code-review.toml 2026-07-17)",
-      "status": "in-progress"
-    },
-    {
-      "epic": 2,
-      "action": "Shared timeboxed-call helper for external/gateway calls (Supabase auth, RPC/network), so 'no timebox' stops being the default path",
-      "owner": "Amelia (dev agent), next touch before/during Epic 3 build",
-      "status": "open"
-    },
-    {
-      "epic": 2,
-      "action": "Story-drafting checklist line: every network/gateway call in a story's tasks must name an explicit timebox + hang-regression test",
-      "owner": "wired into _bmad/custom/bmad-create-story.toml",
-      "status": "open"
     }
   ]
 }
