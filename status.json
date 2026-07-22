@@ -1,7 +1,7 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-07-21",
-  "publishedAt": "2026-07-22T00:19:25.390Z",
+  "publishedAt": "2026-07-22T00:44:02.141Z",
   "kpis": {
     "overallPercent": 25,
     "epicsDone": 2,
@@ -15,7 +15,7 @@
     "storyKey": "3-2-effective-dating-fy-rollover",
     "storyTitle": "Effective Dating & FY Rollover",
     "status": "backlog",
-    "summary": "2026-07-22 (newest): Story 3.1 = DONE (manual QA passed 14/14, ZERO defects; checkpoint 2 agreed; commit + PR pending div)."
+    "summary": "2026-07-22 (newest): PR #26 MERGED; review-lens tuning + two driver-side hang fixes."
   },
   "epics": [
     {
