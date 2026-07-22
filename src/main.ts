@@ -92,13 +92,15 @@ function escapeHtml(value: string): string {
     .replaceAll("'", "&#039;");
 }
 
-function formatDate(value: string): string {
+// Header and footer both read publishedAt, so the two dates can never disagree.
+// The feed also carries lastUpdated, the date written in the sprint file, which
+// lags the publish and is not shown.
+function formatPublished(value: string, withTime: boolean): string {
   return new Intl.DateTimeFormat("en-AU", {
-    day: "numeric",
-    month: "short",
-    year: "numeric",
+    dateStyle: "medium",
+    ...(withTime ? ({ timeStyle: "short" } as const) : {}),
     timeZone: "Australia/Sydney",
-  }).format(new Date(`${value}T00:00:00+10:00`));
+  }).format(new Date(value));
 }
 
 function chip(status: string): string {
@@ -173,7 +175,7 @@ function render(feed: StatusFeed, stale = false): void {
         </div>
         <div class="header-date">
           <span>LAST UPDATED</span>
-          <strong>${formatDate(feed.lastUpdated)}</strong>
+          <strong>${formatPublished(feed.publishedAt, false)}</strong>
         </div>
       </div>
     </header>
@@ -219,11 +221,7 @@ function render(feed: StatusFeed, stale = false): void {
     </main>
 
     <footer>
-      <span>Last updated ${new Intl.DateTimeFormat("en-AU", {
-        dateStyle: "medium",
-        timeStyle: "short",
-        timeZone: "Australia/Sydney",
-      }).format(new Date(feed.publishedAt))}</span>
+      <span>Last updated ${formatPublished(feed.publishedAt, true)}</span>
     </footer>
   `;
 }
