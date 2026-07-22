@@ -1,21 +1,21 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-07-21",
-  "publishedAt": "2026-07-21T06:58:12.316Z",
+  "publishedAt": "2026-07-22T00:19:25.390Z",
   "kpis": {
-    "overallPercent": 22,
-    "epicsDone": 1,
+    "overallPercent": 25,
+    "epicsDone": 2,
     "epicTotal": 12,
-    "storiesInReview": 1,
-    "openActionItems": 0,
-    "currentEpic": 2
+    "storiesInReview": 0,
+    "openActionItems": 3,
+    "currentEpic": 3
   },
   "currentFocus": {
-    "epic": 2,
-    "storyKey": "2-5-archive-hygiene-duplicate-handling",
-    "storyTitle": "Archive Hygiene & Duplicate Handling",
-    "status": "review",
-    "summary": "2026-07-21 (newest): Story 2.5 review patches are GREEN; READY FOR MANUAL QA."
+    "epic": 3,
+    "storyKey": "3-2-effective-dating-fy-rollover",
+    "storyTitle": "Effective Dating & FY Rollover",
+    "status": "backlog",
+    "summary": "2026-07-22 (newest): Story 3.1 = DONE (manual QA passed 14/14, ZERO defects; checkpoint 2 agreed; commit + PR pending div)."
   },
   "epics": [
     {
@@ -76,8 +76,8 @@
     {
       "number": 2,
       "title": "Master Data",
-      "status": "in-progress",
-      "done": 4,
+      "status": "done",
+      "done": 5,
       "total": 5,
       "stories": [
         {
@@ -103,22 +103,22 @@
         {
           "key": "2-5-archive-hygiene-duplicate-handling",
           "title": "Archive Hygiene & Duplicate Handling",
-          "status": "review"
+          "status": "done"
         }
       ],
-      "retrospective": "optional"
+      "retrospective": "done"
     },
     {
       "number": 3,
       "title": "Rate Cards & Pricing Engine",
-      "status": "backlog",
-      "done": 0,
+      "status": "in-progress",
+      "done": 1,
       "total": 6,
       "stories": [
         {
           "key": "3-1-rate-card-model-w9-editor",
           "title": "Rate Card Model & W9 Editor",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "3-2-effective-dating-fy-rollover",
@@ -439,5 +439,24 @@
       "retrospective": "optional"
     }
   ],
-  "openActionItems": []
+  "openActionItems": [
+    {
+      "epic": 1,
+      "action": "Real-seam test rule: navigation/network/reload seams owe renderRouter or real-Supabase coverage; every driver-side network call gets a timebox + hang-regression test",
+      "owner": "Amelia (wired into _bmad/custom/bmad-code-review.toml 2026-07-17)",
+      "status": "in-progress"
+    },
+    {
+      "epic": 2,
+      "action": "Shared timeboxed-call helper for external/gateway calls (Supabase auth, RPC/network), so 'no timebox' stops being the default path",
+      "owner": "Amelia (dev agent), next touch before/during Epic 3 build",
+      "status": "open"
+    },
+    {
+      "epic": 2,
+      "action": "Story-drafting checklist line: every network/gateway call in a story's tasks must name an explicit timebox + hang-regression test",
+      "owner": "wired into _bmad/custom/bmad-create-story.toml",
+      "status": "open"
+    }
+  ]
 }
