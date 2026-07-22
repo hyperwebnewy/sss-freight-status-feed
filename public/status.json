@@ -1,21 +1,20 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-07-20",
-  "publishedAt": "2026-07-20T05:21:09.693Z",
+  "lastUpdated": "2026-07-21",
+  "publishedAt": "2026-07-22T01:11:23.063Z",
   "kpis": {
-    "overallPercent": 17,
-    "epicsDone": 1,
+    "overallPercent": 25,
+    "epicsDone": 2,
     "epicTotal": 12,
-    "storiesInReview": 1,
-    "openActionItems": 0,
-    "currentEpic": 2
+    "storiesInReview": 0,
+    "openActionItems": 3,
+    "currentEpic": 3
   },
   "currentFocus": {
-    "epic": 2,
-    "storyKey": "2-2-products-units",
-    "storyTitle": "Products & Units",
-    "status": "review",
-    "summary": "2026-07-20 (latest): Story 2.2 (Products & Units) = REVIEW COMPLETE + MANUAL QA PASSED 7/7 (commit/PR pending div)."
+    "epic": 3,
+    "storyKey": "3-2-effective-dating-fy-rollover",
+    "storyTitle": "Effective Dating & FY Rollover",
+    "status": "backlog"
   },
   "epics": [
     {
@@ -76,8 +75,8 @@
     {
       "number": 2,
       "title": "Master Data",
-      "status": "in-progress",
-      "done": 1,
+      "status": "done",
+      "done": 5,
       "total": 5,
       "stories": [
         {
@@ -88,37 +87,37 @@
         {
           "key": "2-2-products-units",
           "title": "Products & Units",
-          "status": "review"
+          "status": "done"
         },
         {
           "key": "2-3-vehicles-with-ownership",
           "title": "Vehicles with Ownership",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "2-4-driver-records",
           "title": "Driver Records",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "2-5-archive-hygiene-duplicate-handling",
           "title": "Archive Hygiene & Duplicate Handling",
-          "status": "backlog"
+          "status": "done"
         }
       ],
-      "retrospective": "optional"
+      "retrospective": "done"
     },
     {
       "number": 3,
       "title": "Rate Cards & Pricing Engine",
-      "status": "backlog",
-      "done": 0,
+      "status": "in-progress",
+      "done": 1,
       "total": 6,
       "stories": [
         {
           "key": "3-1-rate-card-model-w9-editor",
           "title": "Rate Card Model & W9 Editor",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "3-2-effective-dating-fy-rollover",
@@ -438,6 +437,5 @@
       ],
       "retrospective": "optional"
     }
-  ],
-  "openActionItems": []
+  ]
 }

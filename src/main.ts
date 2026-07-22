@@ -1,95 +1,87 @@
 import "./vendor/tokens.css";
 import iconUrl from "./assets/sss-icon.png";
 import logoUrl from "./assets/sss-logo-white.svg?url";
-import type { EpicView, StatusFeed, WorkStatus } from "./feed-types";
+import { featureNames, sectionNames } from "./client-copy";
+import type { EpicView, StatusFeed } from "./feed-types";
 import "./styles.css";
 
 const LIVE_FEED =
   "https://raw.githubusercontent.com/hyperwebnewy/sss-freight-status-feed/main/status.json";
 const FALLBACK_FEED = `${import.meta.env.BASE_URL}status.json`;
 const REFRESH_MS = 30_000;
+const LIVE_NOTE = "This page updates live every 1 hour as we progress";
 
 interface DeliveryPhase {
   name: string;
   shortName: string;
-  start: string;
-  due: string;
-  hours: number;
-  epics: number[];
-  commercialOnly?: boolean;
+  delivers: string;
+  notInThisBuild?: boolean;
 }
 
+// Phase names are kept word for word from the agreed delivery plan. The "delivers"
+// line is the plain-English explanation of what each one gives you.
 const deliveryPhases: DeliveryPhase[] = [
   {
     name: "Foundation, Master Data and Rates",
     shortName: "Phase 1",
-    start: "2026-06-15",
-    due: "2026-07-10",
-    hours: 120,
-    epics: [1, 2, 3],
+    delivers:
+      "Sign-in for your team, the client, product and vehicle lists everything else hangs off, and the rate cards that price the work.",
   },
   {
     name: "Jobs, Legs and Daysheet",
     shortName: "Phase 2",
-    start: "2026-07-06",
-    due: "2026-08-21",
-    hours: 160,
-    epics: [4, 5],
+    delivers:
+      "Booking jobs and the legs that make them up, and the day sheet the office runs the yard from.",
   },
   {
     name: "Driver Mobile, Offline, OCR and Conflict Workflow",
     shortName: "Phase 3",
-    start: "2026-08-17",
-    due: "2026-10-16",
-    hours: 280,
-    epics: [6, 7, 8],
+    delivers:
+      "The driver app. It keeps working with no signal, reads dockets from a photo, and sorts out clashes when two people change the same job.",
   },
   {
     name: "Invoicing and Xero",
     shortName: "Phase 4",
-    start: "2026-10-12",
-    due: "2026-11-20",
-    hours: 120,
-    epics: [9],
+    delivers: "Turns finished work into invoices and sends them straight through to Xero.",
   },
   {
     name: "RCTI / Bills Support",
     shortName: "Phase 4 Extension",
-    start: "2026-11-16",
-    due: "2026-11-27",
-    hours: 40,
-    epics: [],
-    commercialOnly: true,
+    delivers: "Paying subcontractors from the same records.",
+    notInThisBuild: true,
   },
   {
     name: "Fuel Surcharge Calculator",
     shortName: "Phase 4 Add-On",
-    start: "2026-10-12",
-    due: "2026-11-20",
-    hours: 40,
-    epics: [11],
+    delivers:
+      "Works out the monthly fuel surcharge and puts it on the invoice as its own line, so it is easy to check.",
   },
   {
     name: "Reports, Archive and UAT to Go-live",
     shortName: "Phase 5",
-    start: "2026-11-23",
-    due: "2027-01-01",
-    hours: 120,
-    epics: [10, 12],
+    delivers:
+      "The reports you asked for, tidying finished records out of the way, and the final round of checks before you go live.",
   },
 ];
+
+const statusWording: Record<string, string> = {
+  backlog: "Not started",
+  "ready-for-dev": "Planned",
+  "in-progress": "Building",
+  review: "Checking",
+  done: "Done",
+};
 
 const appElement = document.querySelector<HTMLDivElement>("#app");
 const faviconElement = document.querySelector<HTMLLinkElement>("#favicon");
 if (!appElement || !faviconElement) {
-  throw new Error("Status board shell is missing");
+  throw new Error("Status page shell is missing");
 }
 const app = appElement;
 const favicon = faviconElement;
 favicon.href = iconUrl;
 
 let lastFeed: StatusFeed | undefined;
-let activeTab: "engineering" | "delivery" = "engineering";
 
 function escapeHtml(value: string): string {
   return value
@@ -98,13 +90,6 @@ function escapeHtml(value: string): string {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
-}
-
-function label(status: string): string {
-  return status
-    .split("-")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
 }
 
 function formatDate(value: string): string {
@@ -117,123 +102,67 @@ function formatDate(value: string): string {
 }
 
 function chip(status: string): string {
-  return `<span class="status-chip status-${escapeHtml(status)}">${escapeHtml(label(status))}</span>`;
+  const wording = statusWording[status] ?? status;
+  return `<span class="status-chip status-${escapeHtml(status)}">${escapeHtml(wording)}</span>`;
 }
 
-function storyRows(epic: EpicView): string {
-  return epic.stories
+// The published feed still calls these epics and stories. That is the data contract
+// the generator writes, so it stays; only the wording on screen changes.
+function featureRows(section: EpicView): string {
+  return section.stories
     .map(
-      (story) => `
-        <li class="story-row">
-          <span class="story-number">${escapeHtml(story.key.split("-", 2).join("."))}</span>
-          <span class="story-title">${escapeHtml(story.title)}</span>
-          ${chip(story.status)}
+      (feature) => `
+        <li class="feature-row">
+          <span class="feature-title">${escapeHtml(featureNames[feature.key] ?? feature.title)}</span>
+          ${chip(feature.status)}
         </li>`,
     )
     .join("");
 }
 
-function epicCards(feed: StatusFeed): string {
+function sectionCards(feed: StatusFeed): string {
   return feed.epics
-    .map((epic) => {
-      const progress =
-        epic.total === 0 ? 0 : Math.round((epic.done / epic.total) * 100);
-      const isCurrent = epic.number === feed.kpis.currentEpic;
+    .map((section) => {
+      const isCurrent = section.number === feed.kpis.currentEpic;
       return `
-        <details class="epic-card${isCurrent ? " current" : ""}" ${isCurrent ? "open" : ""}>
+        <details class="section-card${isCurrent ? " current" : ""}" ${isCurrent ? "open" : ""}>
           <summary>
-            <span class="epic-index">EPIC ${epic.number.toString().padStart(2, "0")}</span>
-            <span class="epic-heading">
-              <strong>${escapeHtml(epic.title)}</strong>
-              <span>${epic.done}/${epic.total} stories done</span>
+            <span class="section-index">SECTION ${section.number.toString().padStart(2, "0")}</span>
+            <span class="section-heading">
+              <strong>${escapeHtml(sectionNames[section.number] ?? section.title)}</strong>
+              <span>${section.done} of ${section.total} features done</span>
             </span>
-            ${chip(epic.status)}
+            ${chip(section.status)}
             <span class="chevron" aria-hidden="true"></span>
           </summary>
-          <div class="progress-track" aria-label="${progress}% complete">
-            <span style="width: ${progress}%"></span>
-          </div>
-          <ul class="story-list">${storyRows(epic)}</ul>
-          ${
-            epic.retrospective
-              ? `<div class="retro-row"><span>Retrospective</span>${chip(epic.retrospective)}</div>`
-              : ""
-          }
+          <ul class="feature-list">${featureRows(section)}</ul>
         </details>`;
     })
     .join("");
 }
 
-function phaseProgress(
-  phase: DeliveryPhase,
-  epics: EpicView[],
-): { done: number; total: number; percent: number } {
-  const mapped = epics.filter((epic) => phase.epics.includes(epic.number));
-  const done = mapped.reduce((sum, epic) => sum + epic.done, 0);
-  const total = mapped.reduce((sum, epic) => sum + epic.total, 0);
-  return { done, total, percent: total === 0 ? 0 : Math.round((done / total) * 100) };
-}
-
-function deliveryCards(feed: StatusFeed): string {
+function deliveryCards(): string {
   return deliveryPhases
-    .map((phase) => {
-      const progress = phaseProgress(phase, feed.epics);
-      return `
+    .map(
+      (phase) => `
         <article class="phase-card">
           <div class="phase-topline">
             <span class="phase-label">${escapeHtml(phase.shortName)}</span>
-            ${
-              phase.commercialOnly
-                ? '<span class="commercial-only">Commercial only</span>'
-                : `<span class="phase-percent">${progress.percent}% engineering</span>`
-            }
+            ${phase.notInThisBuild ? '<span class="not-in-build">Not part of this build</span>' : ""}
           </div>
           <h3>${escapeHtml(phase.name)}</h3>
-          <div class="phase-meta">
-            <span>${formatDate(phase.start)} – ${formatDate(phase.due)}</span>
-            <span>${phase.hours} hours</span>
-          </div>
-          ${
-            phase.commercialOnly
-              ? '<p class="phase-note">Outside the v1 engineering board.</p>'
-              : `
-                <div class="progress-track">
-                  <span style="width: ${progress.percent}%"></span>
-                </div>
-                <p class="phase-note">${progress.done}/${progress.total} mapped stories done · Epics ${phase.epics.join(", ")}</p>
-              `
-          }
-        </article>`;
-    })
+          <p class="phase-delivers">${escapeHtml(phase.delivers)}</p>
+        </article>`,
+    )
     .join("");
-}
-
-function actionItems(feed: StatusFeed): string {
-  if (feed.openActionItems.length === 0) return "";
-  return `
-    <section class="action-panel" aria-labelledby="action-title">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">FOLLOW-UP</p>
-          <h2 id="action-title">Open action items</h2>
-        </div>
-      </div>
-      <ul>
-        ${feed.openActionItems
-          .map(
-            (item) => `
-              <li>
-                <span>${escapeHtml(item.action)}</span>
-                <small>Epic ${item.epic} · ${escapeHtml(item.owner)}</small>
-              </li>`,
-          )
-          .join("")}
-      </ul>
-    </section>`;
 }
 
 function render(feed: StatusFeed, stale = false): void {
   lastFeed = feed;
+  const featuresDone = feed.epics.reduce((sum, section) => sum + section.done, 0);
+  const featuresTotal = feed.epics.reduce((sum, section) => sum + section.total, 0);
+  const currentSection = feed.epics.find((section) => section.number === feed.kpis.currentEpic);
+
   app.innerHTML = `
     <header class="topnav">
       <div class="topnav-inner">
@@ -243,93 +172,60 @@ function render(feed: StatusFeed, stale = false): void {
           <strong>Project Status</strong>
         </div>
         <div class="header-date">
-          <span>SPRINT UPDATED</span>
+          <span>LAST UPDATED</span>
           <strong>${formatDate(feed.lastUpdated)}</strong>
         </div>
       </div>
     </header>
 
     <main>
-      <div class="page-intro">
-        <div>
-          <p class="eyebrow">BUILD OVERVIEW</p>
-          <h1>Freight build at a glance</h1>
-          <p>Live engineering progress from the BMAD sprint file.</p>
-        </div>
-        <div class="feed-state ${stale ? "is-stale" : ""}">
-          <span class="feed-dot"></span>
-          ${stale ? "Live feed unavailable · showing last update" : "Live from sprint-status.yaml"}
-        </div>
+      <p class="live-note${stale ? " is-stale" : ""}">
+        <span class="live-dot"></span>
+        ${stale ? "Showing the last update we published" : LIVE_NOTE}
+      </p>
+
+      <div class="kpi-grid">
+        <article>
+          <span>FEATURES DONE</span>
+          <strong>${featuresDone}<i>/${featuresTotal}</i></strong>
+        </article>
+        <article>
+          <span>SECTIONS DONE</span>
+          <strong>${feed.kpis.epicsDone}<i>/${feed.kpis.epicTotal}</i></strong>
+        </article>
+        <article class="brand-kpi">
+          <span>CURRENTLY BUILDING</span>
+          <strong>${escapeHtml(
+            currentSection ? (sectionNames[currentSection.number] ?? currentSection.title) : "",
+          )}</strong>
+        </article>
       </div>
 
-      <nav class="tabs" aria-label="Status views">
-        <button type="button" data-tab="engineering" class="${activeTab === "engineering" ? "active" : ""}">Engineering</button>
-        <button type="button" data-tab="delivery" class="${activeTab === "delivery" ? "active" : ""}">Delivery plan</button>
-      </nav>
-
-      <section id="engineering" class="tab-panel ${activeTab === "engineering" ? "active" : ""}">
-        <div class="kpi-grid">
-          <article><span>STORIES DONE</span><strong>${feed.kpis.overallPercent}%</strong><small>${feed.epics.reduce((sum, epic) => sum + epic.done, 0)} of ${feed.epics.reduce((sum, epic) => sum + epic.total, 0)}</small></article>
-          <article><span>EPICS DONE</span><strong>${feed.kpis.epicsDone}<i>/${feed.kpis.epicTotal}</i></strong><small>Programme total</small></article>
-          <article><span>IN REVIEW</span><strong>${feed.kpis.storiesInReview}</strong><small>Awaiting close-out</small></article>
-          <article><span>OPEN ACTIONS</span><strong>${feed.kpis.openActionItems}</strong><small>Retro follow-up</small></article>
-          <article class="brand-kpi"><span>CURRENT EPIC</span><strong>${feed.kpis.currentEpic.toString().padStart(2, "0")}</strong><small>${escapeHtml(feed.epics.find((epic) => epic.number === feed.kpis.currentEpic)?.title ?? "")}</small></article>
+      <section aria-labelledby="plan-title">
+        <div class="section-heading-row">
+          <h2 id="plan-title">Delivery plan</h2>
         </div>
-
-        <section class="focus-card" aria-labelledby="focus-title">
-          <div>
-            <p class="eyebrow">CURRENT FOCUS</p>
-            <h2 id="focus-title">${escapeHtml(feed.currentFocus.storyTitle)}</h2>
-            <p>${escapeHtml(feed.currentFocus.summary)}</p>
-          </div>
-          <div class="focus-status">
-            <span>Story ${escapeHtml(feed.currentFocus.storyKey.split("-", 2).join("."))}</span>
-            ${chip(feed.currentFocus.status)}
-          </div>
-        </section>
-
-        ${actionItems(feed)}
-
-        <section aria-labelledby="epics-title">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">ENGINEERING ROADMAP</p>
-              <h2 id="epics-title">Epics and stories</h2>
-            </div>
-            <p>Select an epic to view its stories.</p>
-          </div>
-          <div class="epic-grid">${epicCards(feed)}</div>
-        </section>
+        <div class="phase-grid">${deliveryCards()}</div>
       </section>
 
-      <section id="delivery" class="tab-panel ${activeTab === "delivery" ? "active" : ""}">
-        <div class="delivery-intro">
-          <div>
-            <p class="eyebrow">COMMERCIAL SCHEDULE</p>
-            <h2>Delivery plan</h2>
-          </div>
-          <p>Schedule snapshot from SSS Hub · 20 Jul 2026. Engineering progress comes from the live sprint feed. Commercial investment is intentionally hidden.</p>
-        </div>
-        <div class="phase-grid">${deliveryCards(feed)}</div>
-      </section>
+      <details class="detail-block">
+        <summary>
+          <span>Detailed progress</span>
+          <span class="chevron" aria-hidden="true"></span>
+        </summary>
+        <p class="detail-intro">Open a section to see what is inside it.</p>
+        <div class="section-grid">${sectionCards(feed)}</div>
+      </details>
     </main>
 
     <footer>
-      <span>Reads sprint-status.yaml · not a substitute for the product app</span>
-      <span>Feed published ${new Intl.DateTimeFormat("en-AU", {
+      <span>Last updated ${new Intl.DateTimeFormat("en-AU", {
         dateStyle: "medium",
         timeStyle: "short",
         timeZone: "Australia/Sydney",
       }).format(new Date(feed.publishedAt))}</span>
     </footer>
   `;
-
-  for (const button of document.querySelectorAll<HTMLButtonElement>("[data-tab]")) {
-    button.addEventListener("click", () => {
-      activeTab = button.dataset.tab === "delivery" ? "delivery" : "engineering";
-      render(feed, stale);
-    });
-  }
 }
 
 async function fetchFeed(url: string): Promise<StatusFeed> {
@@ -349,7 +245,7 @@ async function refresh(initial = false): Promise<void> {
         return;
       } catch {
         app.innerHTML =
-          '<div class="fatal"><strong>Status unavailable</strong><p>The status feed could not be loaded. Refresh the page to try again.</p></div>';
+          '<div class="fatal"><strong>Status unavailable</strong><p>We could not load the latest status. Refresh the page to try again.</p></div>';
         return;
       }
     }

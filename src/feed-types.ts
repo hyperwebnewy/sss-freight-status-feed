@@ -44,13 +44,6 @@ export interface StatusFeed {
     storyKey: string;
     storyTitle: string;
     status: WorkStatus;
-    summary: string;
   };
   epics: EpicView[];
-  openActionItems: Array<{
-    epic: number;
-    action: string;
-    owner: string;
-    status: Exclude<ActionStatus, "done">;
-  }>;
 }
