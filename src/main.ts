@@ -15,7 +15,6 @@ interface DeliveryPhase {
   name: string;
   shortName: string;
   delivers: string;
-  notInThisBuild?: boolean;
 }
 
 // Phase names are kept word for word from the agreed delivery plan. The "delivers"
@@ -44,12 +43,8 @@ const deliveryPhases: DeliveryPhase[] = [
     shortName: "Phase 4",
     delivers: "Turns finished work into invoices and sends them straight through to Xero.",
   },
-  {
-    name: "RCTI / Bills Support",
-    shortName: "Phase 4 Extension",
-    delivers: "Paying subcontractors from the same records.",
-    notInThisBuild: true,
-  },
+  // RCTI / Bills Support is deliberately absent: it is cut from this build, so it
+  // does not belong on a plan of what SSS are getting.
   {
     name: "Fuel Surcharge Calculator",
     shortName: "Phase 4 Add-On",
@@ -150,7 +145,6 @@ function deliveryCards(): string {
         <article class="phase-card">
           <div class="phase-topline">
             <span class="phase-label">${escapeHtml(phase.shortName)}</span>
-            ${phase.notInThisBuild ? '<span class="not-in-build">Not part of this build</span>' : ""}
           </div>
           <h3>${escapeHtml(phase.name)}</h3>
           <p class="phase-delivers">${escapeHtml(phase.delivers)}</p>

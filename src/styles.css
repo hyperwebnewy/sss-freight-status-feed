@@ -389,8 +389,7 @@ h2 {
   white-space: nowrap;
 }
 
-.status-chip,
-.not-in-build {
+.status-chip {
   display: inline-flex;
   align-items: center;
   width: max-content;
@@ -422,8 +421,7 @@ h2 {
   background: #eaf1ff;
 }
 
-.status-backlog,
-.not-in-build {
+.status-backlog {
   color: #66737c;
   background: #eef0f1;
 }
