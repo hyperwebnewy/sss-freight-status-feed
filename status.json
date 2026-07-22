@@ -1,19 +1,19 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-07-21",
-  "publishedAt": "2026-07-22T01:26:01.701Z",
+  "lastUpdated": "2026-07-22",
+  "publishedAt": "2026-07-22T05:02:28.414Z",
   "kpis": {
-    "overallPercent": 25,
+    "overallPercent": 27,
     "epicsDone": 2,
     "epicTotal": 12,
     "storiesInReview": 0,
-    "openActionItems": 3,
+    "openActionItems": 2,
     "currentEpic": 3
   },
   "currentFocus": {
     "epic": 3,
-    "storyKey": "3-2-effective-dating-fy-rollover",
-    "storyTitle": "Effective Dating & FY Rollover",
+    "storyKey": "3-3-three-tier-rate-resolver",
+    "storyTitle": "Three-Tier Rate Resolver",
     "status": "backlog"
   },
   "epics": [
@@ -111,7 +111,7 @@
       "number": 3,
       "title": "Rate Cards & Pricing Engine",
       "status": "in-progress",
-      "done": 1,
+      "done": 2,
       "total": 6,
       "stories": [
         {
@@ -122,7 +122,7 @@
         {
           "key": "3-2-effective-dating-fy-rollover",
           "title": "Effective Dating & FY Rollover",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "3-3-three-tier-rate-resolver",
