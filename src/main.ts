@@ -43,8 +43,12 @@ const deliveryPhases: DeliveryPhase[] = [
     shortName: "Phase 4",
     delivers: "Turns finished work into invoices and sends them straight through to Xero.",
   },
-  // RCTI / Bills Support is deliberately absent: it is cut from this build, so it
-  // does not belong on a plan of what SSS are getting.
+  {
+    name: "RCTI / Bills Support",
+    shortName: "Phase 4 Extension",
+    delivers:
+      "Paying subcontractors from the same records: the invoice run can raise an RCTI and post it to Xero as a bill instead of a sales invoice, with the same load report and locking.",
+  },
   {
     name: "Fuel Surcharge Calculator",
     shortName: "Phase 4 Add-On",
