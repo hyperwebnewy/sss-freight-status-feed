@@ -1,19 +1,19 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-07-23",
-  "publishedAt": "2026-07-23T02:33:31.001Z",
+  "publishedAt": "2026-07-23T05:13:26.353Z",
   "kpis": {
-    "overallPercent": 32,
-    "epicsDone": 2,
+    "overallPercent": 33,
+    "epicsDone": 3,
     "epicTotal": 12,
     "storiesInReview": 0,
     "openActionItems": 2,
-    "currentEpic": 3
+    "currentEpic": 4
   },
   "currentFocus": {
-    "epic": 3,
-    "storyKey": "3-6-rate-card-csv-export-seed-import-path",
-    "storyTitle": "Rate Card CSV Export & Seed Import Path",
+    "epic": 4,
+    "storyKey": "4-1-job-leg-model-with-version-tokens-and-snapshot-enforcement",
+    "storyTitle": "Job & Leg Model with Version Tokens and Snapshot Enforcement",
     "status": "backlog"
   },
   "epics": [
@@ -110,8 +110,8 @@
     {
       "number": 3,
       "title": "Rate Cards & Pricing Engine",
-      "status": "in-progress",
-      "done": 5,
+      "status": "done",
+      "done": 6,
       "total": 6,
       "stories": [
         {
@@ -142,7 +142,7 @@
         {
           "key": "3-6-rate-card-csv-export-seed-import-path",
           "title": "Rate Card CSV Export & Seed Import Path",
-          "status": "backlog"
+          "status": "done"
         }
       ],
       "retrospective": "optional"
