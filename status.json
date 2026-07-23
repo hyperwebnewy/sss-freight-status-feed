@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-07-23",
-  "publishedAt": "2026-07-23T09:29:24.953Z",
+  "publishedAt": "2026-07-23T12:16:30.885Z",
   "kpis": {
-    "overallPercent": 35,
+    "overallPercent": 37,
     "epicsDone": 3,
     "epicTotal": 12,
     "storiesInReview": 0,
@@ -12,8 +12,8 @@
   },
   "currentFocus": {
     "epic": 4,
-    "storyKey": "4-2-status-machine",
-    "storyTitle": "Status Machine",
+    "storyKey": "4-3-job-authoring-w4",
+    "storyTitle": "Job Authoring (W4)",
     "status": "backlog"
   },
   "epics": [
@@ -151,7 +151,7 @@
       "number": 4,
       "title": "Jobs, Legs & the Daysheet",
       "status": "in-progress",
-      "done": 1,
+      "done": 2,
       "total": 7,
       "stories": [
         {
@@ -162,7 +162,7 @@
         {
           "key": "4-2-status-machine",
           "title": "Status Machine",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "4-3-job-authoring-w4",
