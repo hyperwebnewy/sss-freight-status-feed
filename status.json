@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-07-23",
-  "publishedAt": "2026-07-23T05:13:26.353Z",
+  "publishedAt": "2026-07-23T09:29:24.953Z",
   "kpis": {
-    "overallPercent": 33,
+    "overallPercent": 35,
     "epicsDone": 3,
     "epicTotal": 12,
     "storiesInReview": 0,
@@ -12,8 +12,8 @@
   },
   "currentFocus": {
     "epic": 4,
-    "storyKey": "4-1-job-leg-model-with-version-tokens-and-snapshot-enforcement",
-    "storyTitle": "Job & Leg Model with Version Tokens and Snapshot Enforcement",
+    "storyKey": "4-2-status-machine",
+    "storyTitle": "Status Machine",
     "status": "backlog"
   },
   "epics": [
@@ -150,14 +150,14 @@
     {
       "number": 4,
       "title": "Jobs, Legs & the Daysheet",
-      "status": "backlog",
-      "done": 0,
+      "status": "in-progress",
+      "done": 1,
       "total": 7,
       "stories": [
         {
           "key": "4-1-job-leg-model-with-version-tokens-and-snapshot-enforcement",
           "title": "Job & Leg Model with Version Tokens and Snapshot Enforcement",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "4-2-status-machine",
