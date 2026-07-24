@@ -1,7 +1,7 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-07-23",
-  "publishedAt": "2026-07-23T12:16:30.885Z",
+  "lastUpdated": "2026-07-24",
+  "publishedAt": "2026-07-24T00:33:53.504Z",
   "kpis": {
     "overallPercent": 37,
     "epicsDone": 3,
@@ -12,8 +12,8 @@
   },
   "currentFocus": {
     "epic": 4,
-    "storyKey": "4-3-job-authoring-w4",
-    "storyTitle": "Job Authoring (W4)",
+    "storyKey": "4-4-daysheet-grid-w2",
+    "storyTitle": "Daysheet Grid (W2)",
     "status": "backlog"
   },
   "epics": [
@@ -152,7 +152,7 @@
       "title": "Jobs, Legs & the Daysheet",
       "status": "in-progress",
       "done": 2,
-      "total": 7,
+      "total": 6,
       "stories": [
         {
           "key": "4-1-job-leg-model-with-version-tokens-and-snapshot-enforcement",
@@ -163,11 +163,6 @@
           "key": "4-2-status-machine",
           "title": "Status Machine",
           "status": "done"
-        },
-        {
-          "key": "4-3-job-authoring-w4",
-          "title": "Job Authoring (W4)",
-          "status": "backlog"
         },
         {
           "key": "4-4-daysheet-grid-w2",
