@@ -1,20 +1,20 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-07-26",
-  "publishedAt": "2026-07-26T03:11:41.797Z",
+  "lastUpdated": "2026-07-27",
+  "publishedAt": "2026-07-27T02:08:37.422Z",
   "kpis": {
-    "overallPercent": 41,
+    "overallPercent": 44,
     "epicsDone": 3,
     "epicTotal": 12,
-    "storiesInReview": 0,
+    "storiesInReview": 1,
     "openActionItems": 2,
     "currentEpic": 4
   },
   "currentFocus": {
     "epic": 4,
-    "storyKey": "4-6-job-detail-w3",
-    "storyTitle": "Job Detail (W3)",
-    "status": "backlog"
+    "storyKey": "4-7-find-jobs-archive-w5",
+    "storyTitle": "Find Jobs & Archive (W5)",
+    "status": "review"
   },
   "epics": [
     {
@@ -151,7 +151,7 @@
       "number": 4,
       "title": "Jobs, Legs & the Daysheet",
       "status": "in-progress",
-      "done": 4,
+      "done": 5,
       "total": 6,
       "stories": [
         {
@@ -177,12 +177,12 @@
         {
           "key": "4-6-job-detail-w3",
           "title": "Job Detail (W3)",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "4-7-find-jobs-archive-w5",
           "title": "Find Jobs & Archive (W5)",
-          "status": "backlog"
+          "status": "review"
         }
       ],
       "retrospective": "optional"
@@ -210,14 +210,14 @@
     {
       "number": 6,
       "title": "Driver App & Offline Sync",
-      "status": "backlog",
-      "done": 0,
+      "status": "in-progress",
+      "done": 1,
       "total": 7,
       "stories": [
         {
           "key": "6-1-powersync-chaos-spike-epic-entry-gate",
           "title": "PowerSync Chaos Spike (Epic Entry Gate)",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "6-2-driver-sync-streams-offline-legs-m2-m3",
