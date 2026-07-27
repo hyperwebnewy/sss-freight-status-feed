@@ -1,19 +1,19 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-07-27",
-  "publishedAt": "2026-07-27T02:08:37.422Z",
+  "publishedAt": "2026-07-27T11:24:37.692Z",
   "kpis": {
-    "overallPercent": 44,
-    "epicsDone": 3,
+    "overallPercent": 46,
+    "epicsDone": 4,
     "epicTotal": 12,
     "storiesInReview": 1,
     "openActionItems": 2,
-    "currentEpic": 4
+    "currentEpic": 5
   },
   "currentFocus": {
-    "epic": 4,
-    "storyKey": "4-7-find-jobs-archive-w5",
-    "storyTitle": "Find Jobs & Archive (W5)",
+    "epic": 5,
+    "storyKey": "5-1-save-as-template-one-tap-copy",
+    "storyTitle": "Save-as-Template & One-Tap Copy",
     "status": "review"
   },
   "epics": [
@@ -150,8 +150,8 @@
     {
       "number": 4,
       "title": "Jobs, Legs & the Daysheet",
-      "status": "in-progress",
-      "done": 5,
+      "status": "done",
+      "done": 6,
       "total": 6,
       "stories": [
         {
@@ -182,7 +182,7 @@
         {
           "key": "4-7-find-jobs-archive-w5",
           "title": "Find Jobs & Archive (W5)",
-          "status": "review"
+          "status": "done"
         }
       ],
       "retrospective": "optional"
@@ -190,14 +190,14 @@
     {
       "number": 5,
       "title": "Recurring Templates",
-      "status": "backlog",
+      "status": "in-progress",
       "done": 0,
       "total": 2,
       "stories": [
         {
           "key": "5-1-save-as-template-one-tap-copy",
           "title": "Save-as-Template & One-Tap Copy",
-          "status": "backlog"
+          "status": "review"
         },
         {
           "key": "5-2-scheduled-morning-generation",
