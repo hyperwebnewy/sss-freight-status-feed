@@ -1,19 +1,19 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-07-27",
-  "publishedAt": "2026-07-27T11:40:47.244Z",
+  "lastUpdated": "2026-07-28",
+  "publishedAt": "2026-07-28T05:52:44.976Z",
   "kpis": {
-    "overallPercent": 47,
-    "epicsDone": 4,
+    "overallPercent": 50,
+    "epicsDone": 5,
     "epicTotal": 12,
     "storiesInReview": 0,
     "openActionItems": 2,
-    "currentEpic": 5
+    "currentEpic": 6
   },
   "currentFocus": {
-    "epic": 5,
-    "storyKey": "5-2-scheduled-morning-generation",
-    "storyTitle": "Scheduled Morning Generation",
+    "epic": 6,
+    "storyKey": "6-3-atomic-ingest-rpc",
+    "storyTitle": "Atomic Ingest RPC",
     "status": "backlog"
   },
   "epics": [
@@ -190,8 +190,8 @@
     {
       "number": 5,
       "title": "Recurring Templates",
-      "status": "in-progress",
-      "done": 1,
+      "status": "done",
+      "done": 2,
       "total": 2,
       "stories": [
         {
@@ -202,27 +202,22 @@
         {
           "key": "5-2-scheduled-morning-generation",
           "title": "Scheduled Morning Generation",
-          "status": "backlog"
+          "status": "done"
         }
       ],
-      "retrospective": "optional"
+      "retrospective": "done"
     },
     {
       "number": 6,
       "title": "Driver App & Offline Sync",
       "status": "in-progress",
       "done": 1,
-      "total": 7,
+      "total": 6,
       "stories": [
         {
           "key": "6-1-powersync-chaos-spike-epic-entry-gate",
           "title": "PowerSync Chaos Spike (Epic Entry Gate)",
           "status": "done"
-        },
-        {
-          "key": "6-2-driver-sync-streams-offline-legs-m2-m3",
-          "title": "Driver Sync Streams & Offline Legs (M2/M3)",
-          "status": "backlog"
         },
         {
           "key": "6-3-atomic-ingest-rpc",
