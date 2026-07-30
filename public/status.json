@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-07-30",
-  "publishedAt": "2026-07-30T21:20:37.337Z",
+  "publishedAt": "2026-07-30T21:22:29.377Z",
   "kpis": {
-    "overallPercent": 40,
+    "overallPercent": 41,
     "epicsDone": 5,
     "epicTotal": 13,
     "storiesInReview": 0,
@@ -12,9 +12,9 @@
   },
   "currentFocus": {
     "epic": 6,
-    "storyKey": "6-6-exactly-once-flush-proof-chaos-hardening",
-    "storyTitle": "Exactly-Once Flush Proof (Chaos Hardening)",
-    "status": "in-progress"
+    "storyKey": "6-7-driver-conflict-state-deactivation-grace-m9",
+    "storyTitle": "Driver Conflict State & Deactivation Grace (M9)",
+    "status": "backlog"
   },
   "epics": [
     {
@@ -211,7 +211,7 @@
       "number": 6,
       "title": "Driver App & Offline Sync",
       "status": "in-progress",
-      "done": 4,
+      "done": 5,
       "total": 7,
       "stories": [
         {
@@ -237,7 +237,7 @@
         {
           "key": "6-6-exactly-once-flush-proof-chaos-hardening",
           "title": "Exactly-Once Flush Proof (Chaos Hardening)",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "key": "6-7-driver-conflict-state-deactivation-grace-m9",
