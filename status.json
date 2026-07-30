@@ -1,20 +1,20 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-07-30",
-  "publishedAt": "2026-07-30T06:34:34.955Z",
+  "publishedAt": "2026-07-30T07:39:54.880Z",
   "kpis": {
     "overallPercent": 43,
     "epicsDone": 5,
     "epicTotal": 13,
-    "storiesInReview": 1,
-    "openActionItems": 5,
+    "storiesInReview": 0,
+    "openActionItems": 6,
     "currentEpic": 6
   },
   "currentFocus": {
     "epic": 6,
-    "storyKey": "6-5-sync-queue-honest-states-m6",
-    "storyTitle": "Sync Queue & Honest States (M6)",
-    "status": "review"
+    "storyKey": "6-6-exactly-once-flush-proof-chaos-hardening",
+    "storyTitle": "Exactly-Once Flush Proof (Chaos Hardening)",
+    "status": "ready-for-dev"
   },
   "epics": [
     {
@@ -211,7 +211,7 @@
       "number": 6,
       "title": "Driver App & Offline Sync",
       "status": "in-progress",
-      "done": 3,
+      "done": 4,
       "total": 7,
       "stories": [
         {
@@ -232,12 +232,12 @@
         {
           "key": "6-5-sync-queue-honest-states-m6",
           "title": "Sync Queue & Honest States (M6)",
-          "status": "review"
+          "status": "done"
         },
         {
           "key": "6-6-exactly-once-flush-proof-chaos-hardening",
           "title": "Exactly-Once Flush Proof (Chaos Hardening)",
-          "status": "backlog"
+          "status": "ready-for-dev"
         },
         {
           "key": "6-7-driver-conflict-state-deactivation-grace-m9",
@@ -371,7 +371,7 @@
         },
         {
           "key": "10-2-custom-filter-report-favourites-csv",
-          "title": "Custom Filter Report, Favourites & CSV",
+          "title": "Custom Report Builder — Columns, Grouping, Saved Reports, CSV/PDF/Email",
           "status": "backlog"
         }
       ],
@@ -442,7 +442,7 @@
       "title": "MyTrucking Parity Recovery [NEW — correct-course 2026-07-29]",
       "status": "backlog",
       "done": 0,
-      "total": 12,
+      "total": 14,
       "stories": [
         {
           "key": "13-1-product-on-the-leg-multi-product-jobs",
@@ -501,7 +501,17 @@
         },
         {
           "key": "13-12-job-level-attachment",
-          "title": "Job-Level Attachment [extends Epic 7]",
+          "title": "Job, Template & Creation-Time Attachments [extends Epics 5 & 7]",
+          "status": "backlog"
+        },
+        {
+          "key": "13-13-invoice-description-tokens",
+          "title": "Invoice Description Tokens [extends Epic 9]",
+          "status": "backlog"
+        },
+        {
+          "key": "13-14-daysheet-orderref-find-jobs-product",
+          "title": "Daysheet Order/Ref Column & Find Jobs by Product [extends Epic 4]",
           "status": "backlog"
         }
       ],
