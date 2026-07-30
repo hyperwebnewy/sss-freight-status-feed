@@ -1,7 +1,7 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-07-30",
-  "publishedAt": "2026-07-30T10:08:22.017Z",
+  "publishedAt": "2026-07-30T21:20:37.337Z",
   "kpis": {
     "overallPercent": 40,
     "epicsDone": 5,
@@ -14,7 +14,7 @@
     "epic": 6,
     "storyKey": "6-6-exactly-once-flush-proof-chaos-hardening",
     "storyTitle": "Exactly-Once Flush Proof (Chaos Hardening)",
-    "status": "ready-for-dev"
+    "status": "in-progress"
   },
   "epics": [
     {
@@ -237,7 +237,7 @@
         {
           "key": "6-6-exactly-once-flush-proof-chaos-hardening",
           "title": "Exactly-Once Flush Proof (Chaos Hardening)",
-          "status": "ready-for-dev"
+          "status": "in-progress"
         },
         {
           "key": "6-7-driver-conflict-state-deactivation-grace-m9",
