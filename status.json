@@ -1,20 +1,20 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-07-28",
-  "publishedAt": "2026-07-28T21:17:36.264Z",
+  "lastUpdated": "2026-07-30",
+  "publishedAt": "2026-07-30T06:24:29.570Z",
   "kpis": {
-    "overallPercent": 50,
+    "overallPercent": 43,
     "epicsDone": 5,
-    "epicTotal": 12,
-    "storiesInReview": 0,
-    "openActionItems": 2,
+    "epicTotal": 13,
+    "storiesInReview": 1,
+    "openActionItems": 5,
     "currentEpic": 6
   },
   "currentFocus": {
     "epic": 6,
-    "storyKey": "6-3-atomic-ingest-rpc",
-    "storyTitle": "Atomic Ingest RPC",
-    "status": "backlog"
+    "storyKey": "6-5-sync-queue-honest-states-m6",
+    "storyTitle": "Sync Queue & Honest States (M6)",
+    "status": "review"
   },
   "epics": [
     {
@@ -211,8 +211,8 @@
       "number": 6,
       "title": "Driver App & Offline Sync",
       "status": "in-progress",
-      "done": 1,
-      "total": 6,
+      "done": 3,
+      "total": 7,
       "stories": [
         {
           "key": "6-1-powersync-chaos-spike-epic-entry-gate",
@@ -222,17 +222,17 @@
         {
           "key": "6-3-atomic-ingest-rpc",
           "title": "Atomic Ingest RPC",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "6-4-delivery-confirmation-manual-path-m5-m7",
           "title": "Delivery Confirmation — Manual Path (M5/M7)",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "6-5-sync-queue-honest-states-m6",
           "title": "Sync Queue & Honest States (M6)",
-          "status": "backlog"
+          "status": "review"
         },
         {
           "key": "6-6-exactly-once-flush-proof-chaos-hardening",
@@ -242,6 +242,11 @@
         {
           "key": "6-7-driver-conflict-state-deactivation-grace-m9",
           "title": "Driver Conflict State & Deactivation Grace (M9)",
+          "status": "backlog"
+        },
+        {
+          "key": "6-8-mobile-e2e-harness-maestro",
+          "title": "Mobile E2E Harness (Maestro on GitHub Actions)",
           "status": "backlog"
         }
       ],
@@ -377,7 +382,7 @@
       "title": "Fuel Surcharge Calculator",
       "status": "backlog",
       "done": 0,
-      "total": 4,
+      "total": 5,
       "stories": [
         {
           "key": "11-1-surcharge-scheme-model-w9-editor",
@@ -397,6 +402,11 @@
         {
           "key": "11-4-surcharge-invoice-line-applicability-flag-tpg-gate",
           "title": "Surcharge Invoice Line, Applicability Flag & TPG Gate",
+          "status": "backlog"
+        },
+        {
+          "key": "11-5-aip-terminal-gate-price-fetch",
+          "title": "AIP Terminal Gate Price Fetch (daily) [NEW — correct-course 2026-07-29]",
           "status": "backlog"
         }
       ],
@@ -422,6 +432,76 @@
         {
           "key": "12-3-gates-verification-parallel-run-uat",
           "title": "Gates Verification & Parallel-Run UAT",
+          "status": "backlog"
+        }
+      ],
+      "retrospective": "optional"
+    },
+    {
+      "number": 13,
+      "title": "MyTrucking Parity Recovery [NEW — correct-course 2026-07-29]",
+      "status": "backlog",
+      "done": 0,
+      "total": 12,
+      "stories": [
+        {
+          "key": "13-1-product-on-the-leg-multi-product-jobs",
+          "title": "Product on the Leg (multi-product jobs)",
+          "status": "backlog"
+        },
+        {
+          "key": "13-2-leg-cartage-snapshot-billing-only-leg",
+          "title": "Leg Cartage Snapshot & Billing-Only Leg",
+          "status": "backlog"
+        },
+        {
+          "key": "13-3-cost-fields-driver-weights-times",
+          "title": "Cost Fields & Driver Weights/Times",
+          "status": "backlog"
+        },
+        {
+          "key": "13-4-w4-parity-product-picker-add-leg-top-rate-cards-previous-jobs",
+          "title": "W4 Parity — Product Picker per Leg, Add-Leg-at-Top, Rate Cards & Previous Jobs Panels",
+          "status": "backlog"
+        },
+        {
+          "key": "13-5-previous-jobs-tab-notes-on-job-detail-w3",
+          "title": "Previous Jobs Tab & Notes on Job Detail (W3)",
+          "status": "backlog"
+        },
+        {
+          "key": "13-6-docket-number-duplicate-check",
+          "title": "Docket Number Duplicate Check",
+          "status": "backlog"
+        },
+        {
+          "key": "13-7-print-email-day-sheet",
+          "title": "Print / Email Day Sheet",
+          "status": "backlog"
+        },
+        {
+          "key": "13-8-re-rate-bulk-tool",
+          "title": "Re-Rate Bulk Tool",
+          "status": "backlog"
+        },
+        {
+          "key": "13-9-driver-notes-both-ways",
+          "title": "Driver Notes Both Ways",
+          "status": "backlog"
+        },
+        {
+          "key": "13-10-dashboard",
+          "title": "Dashboard [extends Epic 10]",
+          "status": "backlog"
+        },
+        {
+          "key": "13-11-consignment-note",
+          "title": "Consignment Note [extends Epic 9]",
+          "status": "backlog"
+        },
+        {
+          "key": "13-12-job-level-attachment",
+          "title": "Job-Level Attachment [extends Epic 7]",
           "status": "backlog"
         }
       ],
