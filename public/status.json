@@ -1,7 +1,7 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-07-31",
-  "publishedAt": "2026-07-31T05:45:43.600Z",
+  "publishedAt": "2026-07-31T14:27:01.851Z",
   "kpis": {
     "overallPercent": 42,
     "epicsDone": 5,
@@ -255,14 +255,14 @@
     {
       "number": 7,
       "title": "Docket Capture & OCR",
-      "status": "backlog",
+      "status": "in-progress",
       "done": 0,
       "total": 6,
       "stories": [
         {
           "key": "7-1-storage-port-7-year-retention",
           "title": "Storage Port & 7-Year Retention",
-          "status": "backlog"
+          "status": "ready-for-dev"
         },
         {
           "key": "7-2-camera-capture-photo-gallery-m4",
