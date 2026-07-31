@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-07-31",
-  "publishedAt": "2026-07-31T05:23:07.936Z",
+  "publishedAt": "2026-07-31T05:29:07.544Z",
   "kpis": {
-    "overallPercent": 41,
+    "overallPercent": 42,
     "epicsDone": 5,
     "epicTotal": 13,
     "storiesInReview": 0,
@@ -12,9 +12,9 @@
   },
   "currentFocus": {
     "epic": 6,
-    "storyKey": "6-7-driver-conflict-state-deactivation-grace-m9",
-    "storyTitle": "Driver Conflict State & Deactivation Grace (M9)",
-    "status": "in-progress"
+    "storyKey": "6-8-mobile-e2e-harness-maestro",
+    "storyTitle": "Mobile E2E Harness (Maestro on GitHub Actions)",
+    "status": "backlog"
   },
   "epics": [
     {
@@ -211,7 +211,7 @@
       "number": 6,
       "title": "Driver App & Offline Sync",
       "status": "in-progress",
-      "done": 5,
+      "done": 6,
       "total": 7,
       "stories": [
         {
@@ -242,7 +242,7 @@
         {
           "key": "6-7-driver-conflict-state-deactivation-grace-m9",
           "title": "Driver Conflict State & Deactivation Grace (M9)",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "key": "6-8-mobile-e2e-harness-maestro",
