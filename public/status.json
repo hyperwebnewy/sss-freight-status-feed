@@ -1,12 +1,12 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-07-31",
-  "publishedAt": "2026-07-31T14:27:01.851Z",
+  "publishedAt": "2026-07-31T14:59:00.821Z",
   "kpis": {
     "overallPercent": 42,
     "epicsDone": 5,
     "epicTotal": 13,
-    "storiesInReview": 0,
+    "storiesInReview": 1,
     "openActionItems": 8,
     "currentEpic": 6
   },
@@ -262,7 +262,7 @@
         {
           "key": "7-1-storage-port-7-year-retention",
           "title": "Storage Port & 7-Year Retention",
-          "status": "ready-for-dev"
+          "status": "review"
         },
         {
           "key": "7-2-camera-capture-photo-gallery-m4",
