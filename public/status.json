@@ -1,13 +1,13 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-07-31",
-  "publishedAt": "2026-07-31T05:29:07.544Z",
+  "publishedAt": "2026-07-31T05:45:43.600Z",
   "kpis": {
     "overallPercent": 42,
     "epicsDone": 5,
     "epicTotal": 13,
     "storiesInReview": 0,
-    "openActionItems": 6,
+    "openActionItems": 8,
     "currentEpic": 6
   },
   "currentFocus": {
@@ -250,7 +250,7 @@
           "status": "backlog"
         }
       ],
-      "retrospective": "optional"
+      "retrospective": "done"
     },
     {
       "number": 7,
