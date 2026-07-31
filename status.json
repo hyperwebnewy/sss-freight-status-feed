@@ -1,7 +1,7 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-07-30",
-  "publishedAt": "2026-07-31T05:22:32.223Z",
+  "lastUpdated": "2026-07-31",
+  "publishedAt": "2026-07-31T05:23:07.936Z",
   "kpis": {
     "overallPercent": 41,
     "epicsDone": 5,
@@ -14,7 +14,7 @@
     "epic": 6,
     "storyKey": "6-7-driver-conflict-state-deactivation-grace-m9",
     "storyTitle": "Driver Conflict State & Deactivation Grace (M9)",
-    "status": "backlog"
+    "status": "in-progress"
   },
   "epics": [
     {
@@ -242,7 +242,7 @@
         {
           "key": "6-7-driver-conflict-state-deactivation-grace-m9",
           "title": "Driver Conflict State & Deactivation Grace (M9)",
-          "status": "backlog"
+          "status": "in-progress"
         },
         {
           "key": "6-8-mobile-e2e-harness-maestro",
