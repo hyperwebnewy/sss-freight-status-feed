@@ -1,12 +1,12 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-07-31",
-  "publishedAt": "2026-07-31T14:59:00.821Z",
+  "lastUpdated": "2026-08-01",
+  "publishedAt": "2026-07-31T15:02:57.745Z",
   "kpis": {
-    "overallPercent": 42,
+    "overallPercent": 43,
     "epicsDone": 5,
     "epicTotal": 13,
-    "storiesInReview": 1,
+    "storiesInReview": 0,
     "openActionItems": 8,
     "currentEpic": 6
   },
@@ -256,13 +256,13 @@
       "number": 7,
       "title": "Docket Capture & OCR",
       "status": "in-progress",
-      "done": 0,
+      "done": 1,
       "total": 6,
       "stories": [
         {
           "key": "7-1-storage-port-7-year-retention",
           "title": "Storage Port & 7-Year Retention",
-          "status": "review"
+          "status": "done"
         },
         {
           "key": "7-2-camera-capture-photo-gallery-m4",
