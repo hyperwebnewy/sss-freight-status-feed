@@ -1,12 +1,12 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-01",
-  "publishedAt": "2026-07-31T15:02:57.745Z",
+  "publishedAt": "2026-08-01T08:40:06.959Z",
   "kpis": {
     "overallPercent": 43,
     "epicsDone": 5,
     "epicTotal": 13,
-    "storiesInReview": 0,
+    "storiesInReview": 1,
     "openActionItems": 8,
     "currentEpic": 6
   },
@@ -267,7 +267,7 @@
         {
           "key": "7-2-camera-capture-photo-gallery-m4",
           "title": "Camera Capture & Photo Gallery (M4)",
-          "status": "backlog"
+          "status": "review"
         },
         {
           "key": "7-3-photo-attachment-sync",
