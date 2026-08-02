@@ -1,7 +1,7 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-01",
-  "publishedAt": "2026-08-02T05:46:35.893Z",
+  "lastUpdated": "2026-08-02",
+  "publishedAt": "2026-08-02T07:44:46.610Z",
   "kpis": {
     "overallPercent": 46,
     "epicsDone": 5,
@@ -277,7 +277,7 @@
         {
           "key": "7-4-ocr-pipeline-provider-port",
           "title": "OCR Pipeline & Provider Port",
-          "status": "backlog"
+          "status": "ready-for-dev"
         },
         {
           "key": "7-5-ocr-prefill-confirm-integrity-m5",
