@@ -1,12 +1,12 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-01",
-  "publishedAt": "2026-08-01T08:40:06.959Z",
+  "publishedAt": "2026-08-02T01:18:05.962Z",
   "kpis": {
-    "overallPercent": 43,
+    "overallPercent": 46,
     "epicsDone": 5,
     "epicTotal": 13,
-    "storiesInReview": 1,
+    "storiesInReview": 0,
     "openActionItems": 8,
     "currentEpic": 6
   },
@@ -256,7 +256,7 @@
       "number": 7,
       "title": "Docket Capture & OCR",
       "status": "in-progress",
-      "done": 1,
+      "done": 3,
       "total": 6,
       "stories": [
         {
@@ -267,12 +267,12 @@
         {
           "key": "7-2-camera-capture-photo-gallery-m4",
           "title": "Camera Capture & Photo Gallery (M4)",
-          "status": "review"
+          "status": "done"
         },
         {
           "key": "7-3-photo-attachment-sync",
           "title": "Photo Attachment Sync",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "7-4-ocr-pipeline-provider-port",
