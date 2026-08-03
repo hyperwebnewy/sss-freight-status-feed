@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-02",
-  "publishedAt": "2026-08-02T07:44:46.610Z",
+  "lastUpdated": "2026-08-03",
+  "publishedAt": "2026-08-03T05:26:08.545Z",
   "kpis": {
-    "overallPercent": 46,
+    "overallPercent": 48,
     "epicsDone": 5,
     "epicTotal": 13,
     "storiesInReview": 0,
@@ -256,7 +256,7 @@
       "number": 7,
       "title": "Docket Capture & OCR",
       "status": "in-progress",
-      "done": 3,
+      "done": 5,
       "total": 6,
       "stories": [
         {
@@ -277,12 +277,12 @@
         {
           "key": "7-4-ocr-pipeline-provider-port",
           "title": "OCR Pipeline & Provider Port",
-          "status": "ready-for-dev"
+          "status": "done"
         },
         {
           "key": "7-5-ocr-prefill-confirm-integrity-m5",
           "title": "OCR Prefill & Confirm Integrity (M5)",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "7-6-ocr-golden-set-regression-guard-ci",
