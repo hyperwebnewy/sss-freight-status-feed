@@ -1,12 +1,12 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-03",
-  "publishedAt": "2026-08-03T10:14:55.564Z",
+  "lastUpdated": "2026-08-04",
+  "publishedAt": "2026-08-04T00:16:37.648Z",
   "kpis": {
     "overallPercent": 48,
     "epicsDone": 5,
     "epicTotal": 13,
-    "storiesInReview": 0,
+    "storiesInReview": 1,
     "openActionItems": 7,
     "currentEpic": 6
   },
@@ -295,14 +295,14 @@
     {
       "number": 8,
       "title": "Flags & Conflict Resolution",
-      "status": "backlog",
+      "status": "in-progress",
       "done": 0,
       "total": 3,
       "stories": [
         {
           "key": "8-1-flag-raising-completion-re-evaluation",
           "title": "Flag Raising Completion & Re-evaluation",
-          "status": "backlog"
+          "status": "review"
         },
         {
           "key": "8-2-flag-review-clearing",
