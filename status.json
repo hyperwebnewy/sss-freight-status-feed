@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-04",
-  "publishedAt": "2026-08-04T00:41:56.308Z",
+  "publishedAt": "2026-08-04T14:17:27.375Z",
   "kpis": {
-    "overallPercent": 49,
+    "overallPercent": 52,
     "epicsDone": 5,
     "epicTotal": 13,
     "storiesInReview": 0,
@@ -296,7 +296,7 @@
       "number": 8,
       "title": "Flags & Conflict Resolution",
       "status": "in-progress",
-      "done": 1,
+      "done": 3,
       "total": 3,
       "stories": [
         {
@@ -307,12 +307,12 @@
         {
           "key": "8-2-flag-review-clearing",
           "title": "Flag Review & Clearing",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "8-3-conflict-resolution-w10",
           "title": "Conflict Resolution (W10)",
-          "status": "backlog"
+          "status": "done"
         }
       ],
       "retrospective": "optional"
