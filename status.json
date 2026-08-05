@@ -1,19 +1,19 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-05",
-  "publishedAt": "2026-08-05T05:40:47.438Z",
+  "publishedAt": "2026-08-05T10:06:44.092Z",
   "kpis": {
-    "overallPercent": 55,
+    "overallPercent": 57,
     "epicsDone": 8,
     "epicTotal": 13,
-    "storiesInReview": 1,
+    "storiesInReview": 0,
     "openActionItems": 8,
-    "currentEpic": 9
+    "currentEpic": 13
   },
   "currentFocus": {
-    "epic": 9,
-    "storyKey": "9-1-xero-connection-token-custody",
-    "storyTitle": "Xero Connection & Token Custody",
+    "epic": 13,
+    "storyKey": "13-3-cost-fields-driver-weights-times",
+    "storyTitle": "Cost Fields & Driver Weights/Times",
     "status": "backlog"
   },
   "epics": [
@@ -455,19 +455,19 @@
     {
       "number": 13,
       "title": "MyTrucking Parity Recovery [NEW — correct-course 2026-07-29]",
-      "status": "backlog",
-      "done": 0,
+      "status": "in-progress",
+      "done": 2,
       "total": 21,
       "stories": [
         {
           "key": "13-1-product-on-the-leg-multi-product-jobs",
           "title": "Product on the Leg (multi-product jobs)",
-          "status": "review"
+          "status": "done"
         },
         {
           "key": "13-2-leg-cartage-snapshot-billing-only-leg",
           "title": "Leg Cartage Snapshot & Billing-Only Leg",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "13-3-cost-fields-driver-weights-times",
