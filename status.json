@@ -1,12 +1,12 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-05",
-  "publishedAt": "2026-08-04T23:34:24.663Z",
+  "publishedAt": "2026-08-05T05:40:47.438Z",
   "kpis": {
     "overallPercent": 55,
     "epicsDone": 8,
     "epicTotal": 13,
-    "storiesInReview": 0,
+    "storiesInReview": 1,
     "openActionItems": 8,
     "currentEpic": 9
   },
@@ -462,7 +462,7 @@
         {
           "key": "13-1-product-on-the-leg-multi-product-jobs",
           "title": "Product on the Leg (multi-product jobs)",
-          "status": "backlog"
+          "status": "review"
         },
         {
           "key": "13-2-leg-cartage-snapshot-billing-only-leg",
@@ -476,7 +476,7 @@
         },
         {
           "key": "13-4-w4-parity-product-picker-add-leg-top-rate-cards-previous-jobs",
-          "title": "W4 Parity — Product Picker per Leg, Add-Leg-at-Top, Rate Cards & Previous Jobs Panels",
+          "title": "W4 Parity — Job Lines Table, Product Picker per Line, Add-Line-at-Top, Rate Cards & Previous Jobs Panels",
           "status": "backlog"
         },
         {
