@@ -1,20 +1,20 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-05",
-  "publishedAt": "2026-08-06T01:33:46.501Z",
+  "publishedAt": "2026-08-06T01:38:09.961Z",
   "kpis": {
-    "overallPercent": 57,
+    "overallPercent": 58,
     "epicsDone": 8,
     "epicTotal": 13,
-    "storiesInReview": 1,
+    "storiesInReview": 0,
     "openActionItems": 8,
     "currentEpic": 13
   },
   "currentFocus": {
     "epic": 13,
-    "storyKey": "13-3-cost-fields-driver-weights-times",
-    "storyTitle": "Cost Fields & Driver Weights/Times",
-    "status": "review"
+    "storyKey": "13-4-w4-parity-product-picker-add-leg-top-rate-cards-previous-jobs",
+    "storyTitle": "W4 Parity — Job Lines Table, Product Picker per Line, Add-Line-at-Top, Rate Cards & Previous Jobs Panels",
+    "status": "backlog"
   },
   "epics": [
     {
@@ -456,7 +456,7 @@
       "number": 13,
       "title": "MyTrucking Parity Recovery [NEW — correct-course 2026-07-29]",
       "status": "in-progress",
-      "done": 2,
+      "done": 3,
       "total": 21,
       "stories": [
         {
@@ -472,7 +472,7 @@
         {
           "key": "13-3-cost-fields-driver-weights-times",
           "title": "Cost Fields & Driver Weights/Times",
-          "status": "review"
+          "status": "done"
         },
         {
           "key": "13-4-w4-parity-product-picker-add-leg-top-rate-cards-previous-jobs",
