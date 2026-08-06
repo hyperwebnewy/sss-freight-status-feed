@@ -1,12 +1,12 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-05",
-  "publishedAt": "2026-08-05T10:06:44.092Z",
+  "publishedAt": "2026-08-06T01:33:46.501Z",
   "kpis": {
     "overallPercent": 57,
     "epicsDone": 8,
     "epicTotal": 13,
-    "storiesInReview": 0,
+    "storiesInReview": 1,
     "openActionItems": 8,
     "currentEpic": 13
   },
@@ -14,7 +14,7 @@
     "epic": 13,
     "storyKey": "13-3-cost-fields-driver-weights-times",
     "storyTitle": "Cost Fields & Driver Weights/Times",
-    "status": "backlog"
+    "status": "review"
   },
   "epics": [
     {
@@ -472,7 +472,7 @@
         {
           "key": "13-3-cost-fields-driver-weights-times",
           "title": "Cost Fields & Driver Weights/Times",
-          "status": "backlog"
+          "status": "review"
         },
         {
           "key": "13-4-w4-parity-product-picker-add-leg-top-rate-cards-previous-jobs",
