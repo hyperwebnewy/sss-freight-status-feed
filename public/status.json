@@ -1,20 +1,20 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-05",
-  "publishedAt": "2026-08-06T01:38:09.961Z",
+  "lastUpdated": "2026-08-10",
+  "publishedAt": "2026-08-11T10:03:44.058Z",
   "kpis": {
-    "overallPercent": 58,
+    "overallPercent": 69,
     "epicsDone": 8,
     "epicTotal": 13,
     "storiesInReview": 0,
     "openActionItems": 8,
-    "currentEpic": 13
+    "currentEpic": 9
   },
   "currentFocus": {
-    "epic": 13,
-    "storyKey": "13-4-w4-parity-product-picker-add-leg-top-rate-cards-previous-jobs",
-    "storyTitle": "W4 Parity — Job Lines Table, Product Picker per Line, Add-Line-at-Top, Rate Cards & Previous Jobs Panels",
-    "status": "backlog"
+    "epic": 9,
+    "storyKey": "9-1-xero-connection-token-custody",
+    "storyTitle": "Xero Connection & Token Custody",
+    "status": "done"
   },
   "epics": [
     {
@@ -330,39 +330,39 @@
     {
       "number": 9,
       "title": "Invoicing, Xero & Load Report",
-      "status": "backlog",
-      "done": 0,
+      "status": "in-progress",
+      "done": 6,
       "total": 6,
       "stories": [
         {
           "key": "9-1-xero-connection-token-custody",
           "title": "Xero Connection & Token Custody",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "9-2-invoice-run-selection-w6-w7",
           "title": "Invoice Run Selection (W6/W7)",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "9-3-deterministic-invoice-construction",
           "title": "Deterministic Invoice Construction",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "9-4-posting-pipeline-four-layer-duplicate-defence",
           "title": "Posting Pipeline & Four-Layer Duplicate Defence",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "9-5-invoiced-locking-uninvoice",
           "title": "Invoiced Locking & Uninvoice",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "9-6-load-report-pdf",
           "title": "Load Report PDF",
-          "status": "backlog"
+          "status": "done"
         }
       ],
       "retrospective": "optional"
@@ -390,14 +390,14 @@
     {
       "number": 11,
       "title": "Fuel Surcharge Calculator",
-      "status": "backlog",
-      "done": 0,
+      "status": "in-progress",
+      "done": 1,
       "total": 5,
       "stories": [
         {
           "key": "11-1-surcharge-scheme-model-w9-editor",
           "title": "Surcharge Scheme Model & W9 Editor",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "11-2-domain-calculator-golden-set",
@@ -456,7 +456,7 @@
       "number": 13,
       "title": "MyTrucking Parity Recovery [NEW — correct-course 2026-07-29]",
       "status": "in-progress",
-      "done": 3,
+      "done": 5,
       "total": 21,
       "stories": [
         {
@@ -477,12 +477,12 @@
         {
           "key": "13-4-w4-parity-product-picker-add-leg-top-rate-cards-previous-jobs",
           "title": "W4 Parity — Job Lines Table, Product Picker per Line, Add-Line-at-Top, Rate Cards & Previous Jobs Panels",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "13-5-previous-jobs-tab-notes-on-job-detail-w3",
           "title": "Previous Jobs Tab & Notes on Job Detail (W3)",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "13-6-docket-number-duplicate-check",
