@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-12",
-  "publishedAt": "2026-08-12T01:26:03.695Z",
+  "publishedAt": "2026-08-12T05:39:39.379Z",
   "kpis": {
-    "overallPercent": 70,
+    "overallPercent": 71,
     "epicsDone": 8,
     "epicTotal": 13,
     "storiesInReview": 0,
@@ -391,7 +391,7 @@
       "number": 11,
       "title": "Fuel Surcharge Calculator",
       "status": "in-progress",
-      "done": 2,
+      "done": 3,
       "total": 5,
       "stories": [
         {
@@ -407,7 +407,7 @@
         {
           "key": "11-3-monthly-tpg-entry-historical-record",
           "title": "Monthly TPG Entry & Historical Record",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "11-4-surcharge-invoice-line-applicability-flag-tpg-gate",
