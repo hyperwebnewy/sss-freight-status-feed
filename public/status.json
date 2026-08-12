@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-12",
-  "publishedAt": "2026-08-12T06:39:59.674Z",
+  "publishedAt": "2026-08-12T16:31:30.218Z",
   "kpis": {
-    "overallPercent": 71,
+    "overallPercent": 73,
     "epicsDone": 8,
     "epicTotal": 13,
     "storiesInReview": 0,
@@ -391,7 +391,7 @@
       "number": 11,
       "title": "Fuel Surcharge Calculator",
       "status": "in-progress",
-      "done": 3,
+      "done": 4,
       "total": 5,
       "stories": [
         {
@@ -412,7 +412,7 @@
         {
           "key": "11-4-surcharge-invoice-line-applicability-flag-tpg-gate",
           "title": "Surcharge Invoice Line, Applicability Flag & TPG Gate",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "11-5-aip-terminal-gate-price-fetch",
