@@ -1,20 +1,20 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-13",
-  "publishedAt": "2026-08-13T11:54:06.942Z",
+  "publishedAt": "2026-08-13T11:56:03.110Z",
   "kpis": {
     "overallPercent": 70,
-    "epicsDone": 9,
+    "epicsDone": 10,
     "epicTotal": 14,
     "storiesInReview": 0,
     "openActionItems": 11,
-    "currentEpic": 9
+    "currentEpic": 13
   },
   "currentFocus": {
-    "epic": 9,
-    "storyKey": "9-1-xero-connection-token-custody",
-    "storyTitle": "Xero Connection & Token Custody",
-    "status": "done"
+    "epic": 13,
+    "storyKey": "13-6-docket-number-duplicate-check",
+    "storyTitle": "Docket Number Duplicate Check",
+    "status": "backlog"
   },
   "epics": [
     {
@@ -330,7 +330,7 @@
     {
       "number": 9,
       "title": "Invoicing, Xero & Load Report",
-      "status": "in-progress",
+      "status": "done",
       "done": 6,
       "total": 6,
       "stories": [
