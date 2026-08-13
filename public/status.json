@@ -1,20 +1,20 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-13",
-  "publishedAt": "2026-08-13T11:56:03.110Z",
+  "publishedAt": "2026-08-13T13:28:55.477Z",
   "kpis": {
     "overallPercent": 70,
     "epicsDone": 10,
     "epicTotal": 14,
     "storiesInReview": 0,
     "openActionItems": 11,
-    "currentEpic": 13
+    "currentEpic": 10
   },
   "currentFocus": {
-    "epic": 13,
-    "storyKey": "13-6-docket-number-duplicate-check",
-    "storyTitle": "Docket Number Duplicate Check",
-    "status": "backlog"
+    "epic": 10,
+    "storyKey": "10-2-custom-filter-report-favourites-csv",
+    "storyTitle": "Custom Report Builder — Columns, Grouping, Saved Reports, CSV",
+    "status": "ready-for-dev"
   },
   "epics": [
     {
@@ -370,9 +370,9 @@
     {
       "number": 10,
       "title": "Reports",
-      "status": "backlog",
+      "status": "in-progress",
       "done": 0,
-      "total": 2,
+      "total": 3,
       "stories": [
         {
           "key": "10-1-six-standing-favourites-w8",
@@ -381,7 +381,12 @@
         },
         {
           "key": "10-2-custom-filter-report-favourites-csv",
-          "title": "Custom Report Builder — Columns, Grouping, Saved Reports, CSV/PDF/Email",
+          "title": "Custom Report Builder — Columns, Grouping, Saved Reports, CSV",
+          "status": "ready-for-dev"
+        },
+        {
+          "key": "10-3-report-pdf-and-email",
+          "title": "Report PDF & Email [split from 10.2]",
           "status": "backlog"
         }
       ],
