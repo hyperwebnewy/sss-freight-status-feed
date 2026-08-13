@@ -1,13 +1,13 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-13",
-  "publishedAt": "2026-08-13T09:24:51.312Z",
+  "publishedAt": "2026-08-13T11:54:06.942Z",
   "kpis": {
     "overallPercent": 70,
-    "epicsDone": 8,
+    "epicsDone": 9,
     "epicTotal": 14,
     "storiesInReview": 0,
-    "openActionItems": 8,
+    "openActionItems": 11,
     "currentEpic": 9
   },
   "currentFocus": {
@@ -365,7 +365,7 @@
           "status": "done"
         }
       ],
-      "retrospective": "optional"
+      "retrospective": "done"
     },
     {
       "number": 10,
@@ -390,7 +390,7 @@
     {
       "number": 11,
       "title": "Fuel Surcharge Calculator",
-      "status": "in-progress",
+      "status": "done",
       "done": 5,
       "total": 5,
       "stories": [
@@ -420,7 +420,7 @@
           "status": "done"
         }
       ],
-      "retrospective": "optional"
+      "retrospective": "done"
     },
     {
       "number": 12,
