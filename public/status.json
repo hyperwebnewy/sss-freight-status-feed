@@ -1,12 +1,12 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-13",
-  "publishedAt": "2026-08-13T05:23:54.432Z",
+  "publishedAt": "2026-08-13T07:18:04.406Z",
   "kpis": {
-    "overallPercent": 73,
+    "overallPercent": 70,
     "epicsDone": 8,
-    "epicTotal": 13,
-    "storiesInReview": 1,
+    "epicTotal": 14,
+    "storiesInReview": 0,
     "openActionItems": 8,
     "currentEpic": 9
   },
@@ -391,7 +391,7 @@
       "number": 11,
       "title": "Fuel Surcharge Calculator",
       "status": "in-progress",
-      "done": 4,
+      "done": 5,
       "total": 5,
       "stories": [
         {
@@ -417,7 +417,7 @@
         {
           "key": "11-5-aip-terminal-gate-price-fetch",
           "title": "AIP Terminal Gate Price Fetch (daily) [NEW — correct-course 2026-07-29]",
-          "status": "review"
+          "status": "done"
         }
       ],
       "retrospective": "optional"
@@ -457,7 +457,7 @@
       "title": "MyTrucking Parity Recovery [NEW — correct-course 2026-07-29]",
       "status": "in-progress",
       "done": 5,
-      "total": 21,
+      "total": 19,
       "stories": [
         {
           "key": "13-1-product-on-the-leg-multi-product-jobs",
@@ -525,11 +525,6 @@
           "status": "backlog"
         },
         {
-          "key": "13-14-daysheet-orderref-find-jobs-product",
-          "title": "Daysheet Order/Ref Column & Find Jobs by Product [extends Epic 4]",
-          "status": "backlog"
-        },
-        {
           "key": "13-15-contract-quantity-balance",
           "title": "Contract Quantity Balance [extends Epic 5]",
           "status": "backlog"
@@ -537,11 +532,6 @@
         {
           "key": "13-16-client-groups-report-rollup",
           "title": "Client Groups & Report Rollup [extends Epics 2 & 10]",
-          "status": "backlog"
-        },
-        {
-          "key": "13-17-daysheet-group-by-toggle",
-          "title": "Daysheet Group-By Toggle [extends Epic 4]",
           "status": "backlog"
         },
         {
@@ -562,6 +552,46 @@
         {
           "key": "13-21-nav-registry-command-k",
           "title": "Nav Registry & ⌘K Auto-Pickup [extends Epic 1 shell]",
+          "status": "backlog"
+        }
+      ],
+      "retrospective": "optional"
+    },
+    {
+      "number": 14,
+      "title": "UX Refresh (SSS feedback) [NEW — correct-course 2026-08-13]",
+      "status": "backlog",
+      "done": 0,
+      "total": 6,
+      "stories": [
+        {
+          "key": "14-1-master-data-regroup-row-click-edit",
+          "title": "Master Data Regroup & Row-Click Edit (W9)",
+          "status": "backlog"
+        },
+        {
+          "key": "14-2-admin-driver-identity-edit",
+          "title": "Admin Driver Identity Edit",
+          "status": "backlog"
+        },
+        {
+          "key": "14-3-job-lines-block-layout-w4",
+          "title": "W4 Job Lines Block Layout",
+          "status": "backlog"
+        },
+        {
+          "key": "14-4-day-sheet-redesign-w2",
+          "title": "Day Sheet Redesign (W2)",
+          "status": "backlog"
+        },
+        {
+          "key": "14-5-find-jobs-restyle-w5",
+          "title": "Find Jobs Restyle (W5)",
+          "status": "backlog"
+        },
+        {
+          "key": "14-6-job-detail-restyle-job-numbers-w3",
+          "title": "Job Detail Restyle, Job Numbers & Margin (W3) [step 7, beside 13.12]",
           "status": "backlog"
         }
       ],
