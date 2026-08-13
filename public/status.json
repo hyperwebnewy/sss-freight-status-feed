@@ -1,12 +1,12 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-12",
-  "publishedAt": "2026-08-12T16:31:30.218Z",
+  "lastUpdated": "2026-08-13",
+  "publishedAt": "2026-08-13T05:23:54.432Z",
   "kpis": {
     "overallPercent": 73,
     "epicsDone": 8,
     "epicTotal": 13,
-    "storiesInReview": 0,
+    "storiesInReview": 1,
     "openActionItems": 8,
     "currentEpic": 9
   },
@@ -417,7 +417,7 @@
         {
           "key": "11-5-aip-terminal-gate-price-fetch",
           "title": "AIP Terminal Gate Price Fetch (daily) [NEW — correct-course 2026-07-29]",
-          "status": "backlog"
+          "status": "review"
         }
       ],
       "retrospective": "optional"
