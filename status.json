@@ -1,7 +1,7 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-13",
-  "publishedAt": "2026-08-14T02:19:20.546Z",
+  "lastUpdated": "2026-08-14",
+  "publishedAt": "2026-08-14T05:43:34.424Z",
   "kpis": {
     "overallPercent": 71,
     "epicsDone": 10,
@@ -12,9 +12,9 @@
   },
   "currentFocus": {
     "epic": 10,
-    "storyKey": "10-1-six-standing-favourites-w8",
-    "storyTitle": "Six Standing Favourites (W8)",
-    "status": "backlog"
+    "storyKey": "10-3-report-pdf-and-email",
+    "storyTitle": "Report PDF & Email [split from 10.2]",
+    "status": "ready-for-dev"
   },
   "epics": [
     {
@@ -387,7 +387,7 @@
         {
           "key": "10-3-report-pdf-and-email",
           "title": "Report PDF & Email [split from 10.2]",
-          "status": "backlog"
+          "status": "ready-for-dev"
         }
       ],
       "retrospective": "optional"
