@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-14",
-  "publishedAt": "2026-08-14T07:17:08.900Z",
+  "lastUpdated": "2026-08-15",
+  "publishedAt": "2026-08-14T15:48:17.632Z",
   "kpis": {
-    "overallPercent": 72,
+    "overallPercent": 73,
     "epicsDone": 10,
     "epicTotal": 14,
     "storiesInReview": 0,
@@ -14,7 +14,7 @@
     "epic": 10,
     "storyKey": "10-1-six-standing-favourites-w8",
     "storyTitle": "Six Standing Favourites (W8)",
-    "status": "backlog"
+    "status": "done"
   },
   "epics": [
     {
@@ -371,13 +371,13 @@
       "number": 10,
       "title": "Reports",
       "status": "in-progress",
-      "done": 2,
+      "done": 3,
       "total": 3,
       "stories": [
         {
           "key": "10-1-six-standing-favourites-w8",
           "title": "Six Standing Favourites (W8)",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "10-2-custom-filter-report-favourites-csv",
