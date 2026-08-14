@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-13",
-  "publishedAt": "2026-08-13T13:28:55.477Z",
+  "publishedAt": "2026-08-14T02:19:20.546Z",
   "kpis": {
-    "overallPercent": 70,
+    "overallPercent": 71,
     "epicsDone": 10,
     "epicTotal": 14,
     "storiesInReview": 0,
@@ -12,9 +12,9 @@
   },
   "currentFocus": {
     "epic": 10,
-    "storyKey": "10-2-custom-filter-report-favourites-csv",
-    "storyTitle": "Custom Report Builder — Columns, Grouping, Saved Reports, CSV",
-    "status": "ready-for-dev"
+    "storyKey": "10-1-six-standing-favourites-w8",
+    "storyTitle": "Six Standing Favourites (W8)",
+    "status": "backlog"
   },
   "epics": [
     {
@@ -371,7 +371,7 @@
       "number": 10,
       "title": "Reports",
       "status": "in-progress",
-      "done": 0,
+      "done": 1,
       "total": 3,
       "stories": [
         {
@@ -382,7 +382,7 @@
         {
           "key": "10-2-custom-filter-report-favourites-csv",
           "title": "Custom Report Builder — Columns, Grouping, Saved Reports, CSV",
-          "status": "ready-for-dev"
+          "status": "done"
         },
         {
           "key": "10-3-report-pdf-and-email",
