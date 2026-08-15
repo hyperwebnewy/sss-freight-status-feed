@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-15",
-  "publishedAt": "2026-08-15T11:06:30.467Z",
+  "publishedAt": "2026-08-15T15:30:59.322Z",
   "kpis": {
-    "overallPercent": 75,
+    "overallPercent": 76,
     "epicsDone": 10,
     "epicTotal": 14,
     "storiesInReview": 0,
@@ -566,7 +566,7 @@
       "number": 14,
       "title": "UX Refresh (SSS feedback) [NEW — correct-course 2026-08-13]",
       "status": "in-progress",
-      "done": 2,
+      "done": 3,
       "total": 6,
       "stories": [
         {
@@ -582,7 +582,7 @@
         {
           "key": "14-3-job-lines-block-layout-w4",
           "title": "W4 Job Lines Block Layout",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "14-4-day-sheet-redesign-w2",
