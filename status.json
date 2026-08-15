@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-15",
-  "publishedAt": "2026-08-15T06:07:01.288Z",
+  "publishedAt": "2026-08-15T11:06:30.467Z",
   "kpis": {
-    "overallPercent": 74,
+    "overallPercent": 75,
     "epicsDone": 10,
     "epicTotal": 14,
     "storiesInReview": 0,
@@ -566,7 +566,7 @@
       "number": 14,
       "title": "UX Refresh (SSS feedback) [NEW — correct-course 2026-08-13]",
       "status": "in-progress",
-      "done": 1,
+      "done": 2,
       "total": 6,
       "stories": [
         {
@@ -577,7 +577,7 @@
         {
           "key": "14-2-admin-driver-identity-edit",
           "title": "Admin Driver Identity Edit",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "14-3-job-lines-block-layout-w4",
