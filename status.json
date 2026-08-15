@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-15",
-  "publishedAt": "2026-08-14T15:48:17.632Z",
+  "publishedAt": "2026-08-15T06:07:01.288Z",
   "kpis": {
-    "overallPercent": 73,
+    "overallPercent": 74,
     "epicsDone": 10,
     "epicTotal": 14,
     "storiesInReview": 0,
@@ -565,14 +565,14 @@
     {
       "number": 14,
       "title": "UX Refresh (SSS feedback) [NEW — correct-course 2026-08-13]",
-      "status": "backlog",
-      "done": 0,
+      "status": "in-progress",
+      "done": 1,
       "total": 6,
       "stories": [
         {
           "key": "14-1-master-data-regroup-row-click-edit",
           "title": "Master Data Regroup & Row-Click Edit (W9)",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "14-2-admin-driver-identity-edit",
