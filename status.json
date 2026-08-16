@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-16",
-  "publishedAt": "2026-08-16T02:58:46.465Z",
+  "publishedAt": "2026-08-16T10:30:56.718Z",
   "kpis": {
-    "overallPercent": 78,
+    "overallPercent": 79,
     "epicsDone": 10,
     "epicTotal": 14,
     "storiesInReview": 0,
@@ -566,7 +566,7 @@
       "number": 14,
       "title": "UX Refresh (SSS feedback) [NEW — correct-course 2026-08-13]",
       "status": "in-progress",
-      "done": 4,
+      "done": 5,
       "total": 6,
       "stories": [
         {
@@ -592,7 +592,7 @@
         {
           "key": "14-5-find-jobs-restyle-w5",
           "title": "Find Jobs Restyle (W5)",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "14-6-job-detail-restyle-job-numbers-w3",
