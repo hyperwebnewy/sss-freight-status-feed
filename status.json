@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-15",
-  "publishedAt": "2026-08-15T15:30:59.322Z",
+  "lastUpdated": "2026-08-16",
+  "publishedAt": "2026-08-16T02:58:46.465Z",
   "kpis": {
-    "overallPercent": 76,
+    "overallPercent": 78,
     "epicsDone": 10,
     "epicTotal": 14,
     "storiesInReview": 0,
@@ -566,7 +566,7 @@
       "number": 14,
       "title": "UX Refresh (SSS feedback) [NEW — correct-course 2026-08-13]",
       "status": "in-progress",
-      "done": 3,
+      "done": 4,
       "total": 6,
       "stories": [
         {
@@ -587,7 +587,7 @@
         {
           "key": "14-4-day-sheet-redesign-w2",
           "title": "Day Sheet Redesign (W2)",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "14-5-find-jobs-restyle-w5",
