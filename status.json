@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-17",
-  "publishedAt": "2026-08-17T02:41:00.328Z",
+  "publishedAt": "2026-08-17T09:15:10.304Z",
   "kpis": {
-    "overallPercent": 79,
+    "overallPercent": 80,
     "epicsDone": 10,
     "epicTotal": 15,
     "storiesInReview": 0,
@@ -461,7 +461,7 @@
       "number": 13,
       "title": "MyTrucking Parity Recovery [NEW — correct-course 2026-07-29]",
       "status": "in-progress",
-      "done": 6,
+      "done": 7,
       "total": 19,
       "stories": [
         {
@@ -492,7 +492,7 @@
         {
           "key": "13-6-docket-number-duplicate-check",
           "title": "Docket Number Duplicate Check",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "13-7-print-email-day-sheet",
