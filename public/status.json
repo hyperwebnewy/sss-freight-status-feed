@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-16",
-  "publishedAt": "2026-08-16T10:30:56.718Z",
+  "lastUpdated": "2026-08-17",
+  "publishedAt": "2026-08-17T02:15:33.668Z",
   "kpis": {
-    "overallPercent": 79,
+    "overallPercent": 80,
     "epicsDone": 10,
     "epicTotal": 14,
     "storiesInReview": 0,
@@ -461,7 +461,7 @@
       "number": 13,
       "title": "MyTrucking Parity Recovery [NEW — correct-course 2026-07-29]",
       "status": "in-progress",
-      "done": 5,
+      "done": 6,
       "total": 19,
       "stories": [
         {
@@ -497,7 +497,7 @@
         {
           "key": "13-7-print-email-day-sheet",
           "title": "Print / Email Day Sheet",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "13-8-re-rate-bulk-tool",
