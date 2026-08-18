@@ -1,13 +1,13 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-18",
-  "publishedAt": "2026-08-18T07:47:29.556Z",
+  "publishedAt": "2026-08-18T08:19:42.379Z",
   "kpis": {
-    "overallPercent": 79,
+    "overallPercent": 77,
     "epicsDone": 10,
     "epicTotal": 15,
     "storiesInReview": 0,
-    "openActionItems": 11,
+    "openActionItems": 9,
     "currentEpic": 10
   },
   "currentFocus": {
@@ -432,11 +432,11 @@
       "title": "Go-Live Readiness",
       "status": "backlog",
       "done": 0,
-      "total": 4,
+      "total": 6,
       "stories": [
         {
-          "key": "12-1-go-live-data-seeding",
-          "title": "Go-Live Data Seeding",
+          "key": "12-1-go-live-master-data-seeding",
+          "title": "Go-Live Master Data Seeding",
           "status": "backlog"
         },
         {
@@ -452,6 +452,16 @@
         {
           "key": "12-3-gates-verification-parallel-run-uat",
           "title": "Gates Verification & Parallel-Run UAT",
+          "status": "backlog"
+        },
+        {
+          "key": "12-4-go-live-pricing-seeding",
+          "title": "Go-Live Pricing Seeding (Rate Cards, Lane History, Templates)",
+          "status": "backlog"
+        },
+        {
+          "key": "12-5-go-live-scheme-seeding-report-recreation",
+          "title": "Go-Live Scheme Seeding and Report Recreation",
           "status": "backlog"
         }
       ],
