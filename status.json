@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-17",
-  "publishedAt": "2026-08-17T18:59:46.029Z",
+  "lastUpdated": "2026-08-18",
+  "publishedAt": "2026-08-18T02:39:12.385Z",
   "kpis": {
-    "overallPercent": 81,
+    "overallPercent": 82,
     "epicsDone": 10,
     "epicTotal": 15,
     "storiesInReview": 0,
@@ -461,7 +461,7 @@
       "number": 13,
       "title": "MyTrucking Parity Recovery [NEW — correct-course 2026-07-29]",
       "status": "in-progress",
-      "done": 8,
+      "done": 9,
       "total": 19,
       "stories": [
         {
@@ -507,7 +507,7 @@
         {
           "key": "13-9-driver-notes-both-ways",
           "title": "Driver Notes Both Ways",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "13-10-dashboard",
