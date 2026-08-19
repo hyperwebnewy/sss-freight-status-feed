@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-18",
-  "publishedAt": "2026-08-19T00:17:00.010Z",
+  "lastUpdated": "2026-08-19",
+  "publishedAt": "2026-08-19T01:32:26.918Z",
   "kpis": {
-    "overallPercent": 80,
+    "overallPercent": 81,
     "epicsDone": 10,
     "epicTotal": 15,
     "storiesInReview": 0,
@@ -471,7 +471,7 @@
       "number": 13,
       "title": "MyTrucking Parity Recovery [NEW — correct-course 2026-07-29]",
       "status": "in-progress",
-      "done": 10,
+      "done": 11,
       "total": 19,
       "stories": [
         {
@@ -537,7 +537,7 @@
         {
           "key": "13-13-invoice-description-tokens",
           "title": "Invoice Description Tokens [extends Epic 9]",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "13-15-contract-quantity-balance",
