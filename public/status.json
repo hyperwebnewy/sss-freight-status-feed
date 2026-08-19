@@ -1,10 +1,10 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-19",
-  "publishedAt": "2026-08-19T01:44:23.779Z",
+  "publishedAt": "2026-08-19T03:17:26.683Z",
   "kpis": {
-    "overallPercent": 81,
-    "epicsDone": 10,
+    "overallPercent": 80,
+    "epicsDone": 9,
     "epicTotal": 15,
     "storiesInReview": 0,
     "openActionItems": 9,
@@ -395,9 +395,9 @@
     {
       "number": 11,
       "title": "Fuel Surcharge Calculator",
-      "status": "done",
+      "status": "in-progress",
       "done": 5,
-      "total": 5,
+      "total": 6,
       "stories": [
         {
           "key": "11-1-surcharge-scheme-model-w9-editor",
@@ -423,6 +423,11 @@
           "key": "11-5-aip-terminal-gate-price-fetch",
           "title": "AIP Terminal Gate Price Fetch (daily) [NEW — correct-course 2026-07-29]",
           "status": "done"
+        },
+        {
+          "key": "11-6-surcharge-on-the-load-report",
+          "title": "Surcharge On The Load Report",
+          "status": "backlog"
         }
       ],
       "retrospective": "done"
