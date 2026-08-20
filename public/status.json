@@ -1,12 +1,12 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-20",
-  "publishedAt": "2026-08-20T16:12:29.288Z",
+  "publishedAt": "2026-08-20T16:15:19.835Z",
   "kpis": {
-    "overallPercent": 81,
+    "overallPercent": 82,
     "epicsDone": 9,
     "epicTotal": 15,
-    "storiesInReview": 1,
+    "storiesInReview": 0,
     "openActionItems": 9,
     "currentEpic": 7
   },
@@ -481,7 +481,7 @@
       "number": 13,
       "title": "MyTrucking Parity Recovery [NEW — correct-course 2026-07-29]",
       "status": "in-progress",
-      "done": 14,
+      "done": 15,
       "total": 20,
       "stories": [
         {
@@ -557,7 +557,7 @@
         {
           "key": "13-16-client-groups-report-rollup",
           "title": "Client Groups & Report Rollup [extends Epics 2 & 10]",
-          "status": "review"
+          "status": "done"
         },
         {
           "key": "13-18-driver-leg-acknowledgement",
