@@ -1,20 +1,20 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-20",
-  "publishedAt": "2026-08-20T05:38:37.102Z",
+  "publishedAt": "2026-08-20T08:03:07.945Z",
   "kpis": {
-    "overallPercent": 83,
+    "overallPercent": 81,
     "epicsDone": 9,
     "epicTotal": 15,
     "storiesInReview": 0,
     "openActionItems": 9,
-    "currentEpic": 10
+    "currentEpic": 7
   },
   "currentFocus": {
-    "epic": 10,
-    "storyKey": "10-1-six-standing-favourites-w8",
-    "storyTitle": "Six Standing Favourites (W8)",
-    "status": "done"
+    "epic": 7,
+    "storyKey": "7-6-ocr-golden-set-regression-guard-ci",
+    "storyTitle": "OCR Golden-Set Regression Guard (CI)",
+    "status": "backlog"
   },
   "epics": [
     {
@@ -270,9 +270,9 @@
     {
       "number": 7,
       "title": "Docket Capture & OCR",
-      "status": "done",
+      "status": "in-progress",
       "done": 5,
-      "total": 5,
+      "total": 6,
       "stories": [
         {
           "key": "7-1-storage-port-7-year-retention",
@@ -298,6 +298,11 @@
           "key": "7-5-ocr-prefill-confirm-integrity-m5",
           "title": "OCR Prefill & Confirm Integrity (M5)",
           "status": "done"
+        },
+        {
+          "key": "7-6-ocr-golden-set-regression-guard-ci",
+          "title": "OCR Golden-Set Regression Guard (CI)",
+          "status": "backlog"
         }
       ],
       "retrospective": "optional"
@@ -370,7 +375,7 @@
     {
       "number": 10,
       "title": "Reports",
-      "status": "in-progress",
+      "status": "done",
       "done": 3,
       "total": 3,
       "stories": [
@@ -477,7 +482,7 @@
       "title": "MyTrucking Parity Recovery [NEW — correct-course 2026-07-29]",
       "status": "in-progress",
       "done": 14,
-      "total": 19,
+      "total": 20,
       "stories": [
         {
           "key": "13-1-product-on-the-leg-multi-product-jobs",
@@ -572,6 +577,11 @@
         {
           "key": "13-21-nav-registry-command-k",
           "title": "Nav Registry & ⌘K Auto-Pickup [extends Epic 1 shell]",
+          "status": "backlog"
+        },
+        {
+          "key": "13-22-daysheet-drag-drop-ordering-w2",
+          "title": "Daysheet Drag & Drop Job Ordering (W2)",
           "status": "backlog"
         }
       ],
