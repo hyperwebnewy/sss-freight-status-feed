@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-19",
-  "publishedAt": "2026-08-19T23:14:06.462Z",
+  "lastUpdated": "2026-08-20",
+  "publishedAt": "2026-08-20T05:38:37.102Z",
   "kpis": {
-    "overallPercent": 82,
+    "overallPercent": 83,
     "epicsDone": 9,
     "epicTotal": 15,
     "storiesInReview": 0,
@@ -476,7 +476,7 @@
       "number": 13,
       "title": "MyTrucking Parity Recovery [NEW — correct-course 2026-07-29]",
       "status": "in-progress",
-      "done": 13,
+      "done": 14,
       "total": 19,
       "stories": [
         {
@@ -527,7 +527,7 @@
         {
           "key": "13-10-dashboard",
           "title": "Dashboard [extends Epic 10]",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "13-11-consignment-note",
