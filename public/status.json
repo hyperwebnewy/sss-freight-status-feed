@@ -1,12 +1,12 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-20",
-  "publishedAt": "2026-08-20T08:03:07.945Z",
+  "publishedAt": "2026-08-20T16:12:29.288Z",
   "kpis": {
     "overallPercent": 81,
     "epicsDone": 9,
     "epicTotal": 15,
-    "storiesInReview": 0,
+    "storiesInReview": 1,
     "openActionItems": 9,
     "currentEpic": 7
   },
@@ -557,7 +557,7 @@
         {
           "key": "13-16-client-groups-report-rollup",
           "title": "Client Groups & Report Rollup [extends Epics 2 & 10]",
-          "status": "backlog"
+          "status": "review"
         },
         {
           "key": "13-18-driver-leg-acknowledgement",
