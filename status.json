@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-20",
-  "publishedAt": "2026-08-20T16:15:19.835Z",
+  "lastUpdated": "2026-08-21",
+  "publishedAt": "2026-08-21T02:32:34.871Z",
   "kpis": {
-    "overallPercent": 82,
+    "overallPercent": 84,
     "epicsDone": 9,
     "epicTotal": 15,
     "storiesInReview": 0,
@@ -401,7 +401,7 @@
       "number": 11,
       "title": "Fuel Surcharge Calculator",
       "status": "in-progress",
-      "done": 5,
+      "done": 6,
       "total": 6,
       "stories": [
         {
@@ -432,7 +432,7 @@
         {
           "key": "11-6-surcharge-on-the-load-report",
           "title": "Surcharge On The Load Report",
-          "status": "backlog"
+          "status": "done"
         }
       ],
       "retrospective": "done"
