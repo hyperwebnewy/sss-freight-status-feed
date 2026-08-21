@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-21",
-  "publishedAt": "2026-08-21T02:32:34.871Z",
+  "publishedAt": "2026-08-21T06:36:54.008Z",
   "kpis": {
-    "overallPercent": 84,
+    "overallPercent": 85,
     "epicsDone": 9,
     "epicTotal": 15,
     "storiesInReview": 0,
@@ -481,7 +481,7 @@
       "number": 13,
       "title": "MyTrucking Parity Recovery [NEW — correct-course 2026-07-29]",
       "status": "in-progress",
-      "done": 15,
+      "done": 16,
       "total": 20,
       "stories": [
         {
@@ -567,7 +567,7 @@
         {
           "key": "13-19-inline-add-client-w4",
           "title": "Inline Add Client on W4 [extends Epic 4]",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "13-20-invoice-display-preferences",
