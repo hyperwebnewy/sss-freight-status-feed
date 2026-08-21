@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-21",
-  "publishedAt": "2026-08-21T06:36:54.008Z",
+  "publishedAt": "2026-08-21T12:25:40.241Z",
   "kpis": {
-    "overallPercent": 85,
+    "overallPercent": 86,
     "epicsDone": 9,
     "epicTotal": 15,
     "storiesInReview": 0,
@@ -481,7 +481,7 @@
       "number": 13,
       "title": "MyTrucking Parity Recovery [NEW — correct-course 2026-07-29]",
       "status": "in-progress",
-      "done": 16,
+      "done": 17,
       "total": 20,
       "stories": [
         {
@@ -542,7 +542,7 @@
         {
           "key": "13-12-job-level-attachment",
           "title": "Job, Template & Creation-Time Attachments [extends Epics 5 & 7]",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "13-13-invoice-description-tokens",
