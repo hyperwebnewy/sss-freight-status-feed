@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-22",
-  "publishedAt": "2026-08-22T01:53:38.260Z",
+  "publishedAt": "2026-08-22T09:13:22.027Z",
   "kpis": {
-    "overallPercent": 87,
+    "overallPercent": 88,
     "epicsDone": 9,
     "epicTotal": 15,
     "storiesInReview": 0,
@@ -481,7 +481,7 @@
       "number": 13,
       "title": "MyTrucking Parity Recovery [NEW — correct-course 2026-07-29]",
       "status": "in-progress",
-      "done": 17,
+      "done": 18,
       "total": 20,
       "stories": [
         {
@@ -552,7 +552,7 @@
         {
           "key": "13-15-contract-quantity-balance",
           "title": "Contract Quantity Balance [extends Epic 5]",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "13-16-client-groups-report-rollup",
