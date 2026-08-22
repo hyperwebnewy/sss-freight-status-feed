@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-21",
-  "publishedAt": "2026-08-21T12:25:40.241Z",
+  "lastUpdated": "2026-08-22",
+  "publishedAt": "2026-08-22T01:53:38.260Z",
   "kpis": {
-    "overallPercent": 86,
+    "overallPercent": 87,
     "epicsDone": 9,
     "epicTotal": 15,
     "storiesInReview": 0,
@@ -591,7 +591,7 @@
       "number": 14,
       "title": "UX Refresh (SSS feedback) [NEW — correct-course 2026-08-13]",
       "status": "in-progress",
-      "done": 5,
+      "done": 6,
       "total": 6,
       "stories": [
         {
@@ -622,7 +622,7 @@
         {
           "key": "14-6-job-detail-restyle-job-numbers-w3",
           "title": "Job Detail Restyle, Job Numbers & Margin (W3) [step 7, beside 13.12]",
-          "status": "backlog"
+          "status": "done"
         }
       ],
       "retrospective": "optional"
