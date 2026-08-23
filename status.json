@@ -1,12 +1,12 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-22",
-  "publishedAt": "2026-08-22T15:11:15.317Z",
+  "lastUpdated": "2026-08-23",
+  "publishedAt": "2026-08-23T03:01:25.473Z",
   "kpis": {
     "overallPercent": 89,
     "epicsDone": 9,
     "epicTotal": 15,
-    "storiesInReview": 0,
+    "storiesInReview": 1,
     "openActionItems": 9,
     "currentEpic": 7
   },
@@ -577,7 +577,7 @@
         {
           "key": "13-21-nav-registry-command-k",
           "title": "Nav Registry & ⌘K Auto-Pickup [extends Epic 1 shell]",
-          "status": "backlog"
+          "status": "review"
         },
         {
           "key": "13-22-daysheet-drag-drop-ordering-w2",
