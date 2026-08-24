@@ -1,7 +1,7 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-23",
-  "publishedAt": "2026-08-24T02:20:11.201Z",
+  "lastUpdated": "2026-08-24",
+  "publishedAt": "2026-08-24T03:35:13.974Z",
   "kpis": {
     "overallPercent": 91,
     "epicsDone": 9,
@@ -447,7 +447,7 @@
         {
           "key": "12-1-go-live-master-data-seeding",
           "title": "Go-Live Master Data Seeding",
-          "status": "backlog"
+          "status": "ready-for-dev"
         },
         {
           "key": "12-1b-sentry-end-to-end-web-and-mobile",
