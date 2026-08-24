@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-23",
-  "publishedAt": "2026-08-23T03:02:47.020Z",
+  "publishedAt": "2026-08-24T02:20:11.201Z",
   "kpis": {
-    "overallPercent": 90,
+    "overallPercent": 91,
     "epicsDone": 9,
     "epicTotal": 15,
     "storiesInReview": 0,
@@ -440,8 +440,8 @@
     {
       "number": 12,
       "title": "Go-Live Readiness",
-      "status": "backlog",
-      "done": 0,
+      "status": "in-progress",
+      "done": 1,
       "total": 6,
       "stories": [
         {
@@ -452,7 +452,7 @@
         {
           "key": "12-1b-sentry-end-to-end-web-and-mobile",
           "title": "Sentry End-to-End on Web and Mobile",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "12-2-backup-restore-reconciliation-drill",
