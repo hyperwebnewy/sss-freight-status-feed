@@ -1,7 +1,7 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-24",
-  "publishedAt": "2026-08-24T11:32:40.651Z",
+  "lastUpdated": "2026-08-25",
+  "publishedAt": "2026-08-25T00:40:39.403Z",
   "kpis": {
     "overallPercent": 92,
     "epicsDone": 9,
@@ -467,7 +467,7 @@
         {
           "key": "12-4-go-live-pricing-seeding",
           "title": "Go-Live Pricing Seeding (Rate Cards, Lane History, Templates)",
-          "status": "backlog"
+          "status": "ready-for-dev"
         },
         {
           "key": "12-5-go-live-scheme-seeding-report-recreation",
