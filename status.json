@@ -1,20 +1,20 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-25",
-  "publishedAt": "2026-08-25T04:37:36.548Z",
+  "publishedAt": "2026-08-25T09:40:10.006Z",
   "kpis": {
-    "overallPercent": 93,
-    "epicsDone": 9,
+    "overallPercent": 94,
+    "epicsDone": 10,
     "epicTotal": 15,
     "storiesInReview": 0,
     "openActionItems": 9,
-    "currentEpic": 7
+    "currentEpic": 11
   },
   "currentFocus": {
-    "epic": 7,
-    "storyKey": "7-6-ocr-golden-set-regression-guard-ci",
-    "storyTitle": "OCR Golden-Set Regression Guard (CI)",
-    "status": "backlog"
+    "epic": 11,
+    "storyKey": "11-1-surcharge-scheme-model-w9-editor",
+    "storyTitle": "Surcharge Scheme Model & W9 Editor",
+    "status": "done"
   },
   "epics": [
     {
@@ -270,9 +270,9 @@
     {
       "number": 7,
       "title": "Docket Capture & OCR",
-      "status": "in-progress",
+      "status": "done",
       "done": 5,
-      "total": 6,
+      "total": 5,
       "stories": [
         {
           "key": "7-1-storage-port-7-year-retention",
@@ -298,11 +298,6 @@
           "key": "7-5-ocr-prefill-confirm-integrity-m5",
           "title": "OCR Prefill & Confirm Integrity (M5)",
           "status": "done"
-        },
-        {
-          "key": "7-6-ocr-golden-set-regression-guard-ci",
-          "title": "OCR Golden-Set Regression Guard (CI)",
-          "status": "backlog"
         }
       ],
       "retrospective": "optional"
