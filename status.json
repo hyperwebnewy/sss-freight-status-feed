@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-25",
-  "publishedAt": "2026-08-25T09:40:10.006Z",
+  "publishedAt": "2026-08-25T09:52:24.353Z",
   "kpis": {
-    "overallPercent": 94,
+    "overallPercent": 95,
     "epicsDone": 10,
     "epicTotal": 15,
     "storiesInReview": 0,
@@ -436,7 +436,7 @@
       "number": 12,
       "title": "Go-Live Readiness",
       "status": "in-progress",
-      "done": 3,
+      "done": 4,
       "total": 6,
       "stories": [
         {
@@ -467,7 +467,7 @@
         {
           "key": "12-5-go-live-scheme-seeding-report-recreation",
           "title": "Go-Live Scheme Seeding and Report Recreation",
-          "status": "backlog"
+          "status": "done"
         }
       ],
       "retrospective": "optional"
