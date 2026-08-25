@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-25",
-  "publishedAt": "2026-08-25T09:52:24.353Z",
+  "publishedAt": "2026-08-25T11:29:41.804Z",
   "kpis": {
-    "overallPercent": 95,
+    "overallPercent": 94,
     "epicsDone": 10,
     "epicTotal": 15,
     "storiesInReview": 0,
@@ -437,7 +437,7 @@
       "title": "Go-Live Readiness",
       "status": "in-progress",
       "done": 4,
-      "total": 6,
+      "total": 7,
       "stories": [
         {
           "key": "12-1-go-live-master-data-seeding",
@@ -468,6 +468,11 @@
           "key": "12-5-go-live-scheme-seeding-report-recreation",
           "title": "Go-Live Scheme Seeding and Report Recreation",
           "status": "done"
+        },
+        {
+          "key": "12-6-production-seeding-run",
+          "title": "Production Seeding Run",
+          "status": "backlog"
         }
       ],
       "retrospective": "optional"
