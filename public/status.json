@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-25",
-  "publishedAt": "2026-08-25T00:40:39.403Z",
+  "publishedAt": "2026-08-25T04:37:36.548Z",
   "kpis": {
-    "overallPercent": 92,
+    "overallPercent": 93,
     "epicsDone": 9,
     "epicTotal": 15,
     "storiesInReview": 0,
@@ -441,7 +441,7 @@
       "number": 12,
       "title": "Go-Live Readiness",
       "status": "in-progress",
-      "done": 2,
+      "done": 3,
       "total": 6,
       "stories": [
         {
@@ -467,7 +467,7 @@
         {
           "key": "12-4-go-live-pricing-seeding",
           "title": "Go-Live Pricing Seeding (Rate Cards, Lane History, Templates)",
-          "status": "ready-for-dev"
+          "status": "done"
         },
         {
           "key": "12-5-go-live-scheme-seeding-report-recreation",
