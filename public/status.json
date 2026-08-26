@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-25",
-  "publishedAt": "2026-08-25T11:29:41.804Z",
+  "publishedAt": "2026-08-26T03:12:36.705Z",
   "kpis": {
-    "overallPercent": 94,
+    "overallPercent": 95,
     "epicsDone": 10,
     "epicTotal": 15,
     "storiesInReview": 0,
@@ -436,7 +436,7 @@
       "number": 12,
       "title": "Go-Live Readiness",
       "status": "in-progress",
-      "done": 4,
+      "done": 5,
       "total": 7,
       "stories": [
         {
@@ -472,7 +472,7 @@
         {
           "key": "12-6-production-seeding-run",
           "title": "Production Seeding Run",
-          "status": "backlog"
+          "status": "done"
         }
       ],
       "retrospective": "optional"
