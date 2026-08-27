@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-25",
-  "publishedAt": "2026-08-26T03:12:36.705Z",
+  "lastUpdated": "2026-08-27",
+  "publishedAt": "2026-08-27T03:59:40.344Z",
   "kpis": {
-    "overallPercent": 95,
+    "overallPercent": 97,
     "epicsDone": 10,
     "epicTotal": 15,
     "storiesInReview": 0,
@@ -436,7 +436,7 @@
       "number": 12,
       "title": "Go-Live Readiness",
       "status": "in-progress",
-      "done": 5,
+      "done": 7,
       "total": 7,
       "stories": [
         {
@@ -452,12 +452,12 @@
         {
           "key": "12-2-backup-restore-reconciliation-drill",
           "title": "Backup/Restore & Reconciliation Drill",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "12-3-gates-verification-parallel-run-uat",
           "title": "Gates Verification & Parallel-Run UAT",
-          "status": "backlog"
+          "status": "done"
         },
         {
           "key": "12-4-go-live-pricing-seeding",
