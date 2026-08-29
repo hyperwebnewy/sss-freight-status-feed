@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
-  "lastUpdated": "2026-08-27",
-  "publishedAt": "2026-08-27T03:59:40.344Z",
+  "lastUpdated": "2026-08-29",
+  "publishedAt": "2026-08-29T07:56:45.109Z",
   "kpis": {
-    "overallPercent": 97,
+    "overallPercent": 99,
     "epicsDone": 10,
     "epicTotal": 15,
     "storiesInReview": 0,
@@ -632,21 +632,11 @@
       "title": "Post-Go-Live Enhancements [NEW — correct-course 2026-08-17]",
       "status": "backlog",
       "done": 0,
-      "total": 3,
+      "total": 1,
       "stories": [
         {
           "key": "15-1-natural-language-job-entry-w4-quick-create",
-          "title": "Natural-Language Job Entry (W4 Quick Create)",
-          "status": "backlog"
-        },
-        {
-          "key": "15-2-pre-invoice-sanity-pass",
-          "title": "Pre-Invoice Sanity Pass",
-          "status": "backlog"
-        },
-        {
-          "key": "15-4-nl-search-find-jobs",
-          "title": "NL Search on Find Jobs",
+          "title": "Natural-Language Job Entry and Suggested Repeats (W4 Quick Create)",
           "status": "backlog"
         }
       ],
