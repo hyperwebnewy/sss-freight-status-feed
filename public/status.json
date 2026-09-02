@@ -1,9 +1,9 @@
 {
   "generated": "2026-07-15",
   "lastUpdated": "2026-08-29",
-  "publishedAt": "2026-08-29T07:56:45.109Z",
+  "publishedAt": "2026-09-02T02:13:07.673Z",
   "kpis": {
-    "overallPercent": 99,
+    "overallPercent": 100,
     "epicsDone": 10,
     "epicTotal": 15,
     "storiesInReview": 0,
@@ -631,13 +631,13 @@
       "number": 15,
       "title": "Post-Go-Live Enhancements [NEW — correct-course 2026-08-17]",
       "status": "backlog",
-      "done": 0,
+      "done": 1,
       "total": 1,
       "stories": [
         {
           "key": "15-1-natural-language-job-entry-w4-quick-create",
           "title": "Natural-Language Job Entry and Suggested Repeats (W4 Quick Create)",
-          "status": "backlog"
+          "status": "done"
         }
       ],
       "retrospective": "optional"
